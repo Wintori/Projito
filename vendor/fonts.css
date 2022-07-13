@@ -1,7 +1,6 @@
 @font-face {
-    font-family: 'Inter';
+    font-family: 'Projito_font';
     font-style: normal;
-    font-display: swap;
-    src: url(../fonts/Projito/) format("otf");
-    font-weight: 900;
+    src: url(../fonts/Projito/Projito_font.otf) format("otf");
+    font-weight: 400;
 }
