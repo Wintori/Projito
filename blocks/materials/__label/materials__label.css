@@ -1,0 +1,20 @@
+.materials__label {
+  text-transform: uppercase;
+  background-color: #a5cdab;
+  position: absolute;
+  top: -16px;
+  left: auto;
+  border-radius: 8px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  padding: 8px 32px;
+}
+
+@media screen and (max-width: 1439px) {
+  .materials__label {
+    padding: 4px 12px;
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
