@@ -1,6 +1,4 @@
 @font-face {
-    font-family: 'Projito_font';
-    font-style: normal;
-    src: url(../fonts/Projito/Projito_font.otf) format("otf");
-    font-weight: 400;
+    font-family: 'WF';
+    src: url('../fonts/Projito/Прожито_Шрифт.woff2') format('woff2');
 }
