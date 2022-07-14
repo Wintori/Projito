@@ -1,0 +1,18 @@
+.element {
+    padding: 32px;
+    max-width: 562px;
+    height: auto;
+    border: 1px solid rgba(50, 50, 50, 0.3);
+}
+
+@media screen and (max-width: 768px) {
+    .element {
+        padding: 28px;
+    }
+}
+
+@media screen and (max-width: 336px) {
+    .element {
+        padding: 12px;
+    }
+}
