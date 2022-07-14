@@ -1,0 +1,20 @@
+.popup {
+    max-width: 237px;
+    background-color: #A5CDAB;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+@media (max-width: 800px) {
+    .popup {
+        max-width: 191px;
+    }
+}
+
+@media (max-width: 400px) {
+    .popup {
+        max-width: 157px;
+        top: -14px;
+    }
+}
