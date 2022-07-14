@@ -1,0 +1,7 @@
+.element__block-text {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    max-width: 498.17px;
+    margin-bottom: 36px;
+}
