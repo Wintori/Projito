@@ -15,6 +15,20 @@
 @import url('../blocks/banner/_place/banner_place_center.css');
 @import url('../blocks/banner/banner.css');
 
+@import url('../blocks/materials/materials.css');
+@import url('../blocks/materials/__card/materials__card.css');
+@import url('../blocks/materials/__cards/materials__cards.css');
+@import url('../blocks/materials/__image/materials__image.css');
+@import url('../blocks/materials/__label/materials__label.css');
+@import url('../blocks/materials/__link/materials__link.css');
+@import url('../blocks/materials/__name/materials__name.css');
+@import url('../blocks/materials/__text/materials__text.css');
+@import url('../blocks/materials/__title/materials__title.css');
+@import url('../blocks/materials/__dots/materials__dots.css');
+@import url('../blocks/materials/__slide/materials__slide.css');
+@import url('../blocks/materials/__slide-button/materials__slide-button.css');
+@import url('../blocks/materials/__slide-button/_active/materials__slide-button_active.css');
+
 @import url(../blocks/header/header.css);
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/header/__main-menu/header__main-menu.css);
