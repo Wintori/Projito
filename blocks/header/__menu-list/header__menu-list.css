@@ -1,0 +1,25 @@
+.header__menu-list {
+    text-decoration: none;
+    margin-right: 40px;
+}
+
+.header__menu-list:last-child {
+    margin-right: 0px;
+}
+
+@media screen and (max-width: 767px) {
+    .header__menu-links > .header__menu-list {
+        margin-bottom: 28px;
+    }
+    .header__menu-links > .header__menu-list:last-child {
+        margin-bottom: 0;
+    }
+
+    .header__menu-links > .header__extra-menu-list {
+        margin-bottom: 28px;
+    }
+
+    .header__menu-links > .header__extra-menu-list:last-child {
+        margin-bottom: 0;
+    }
+}
