@@ -1,0 +1,13 @@
+.header__extra-menu {
+    margin: 12px auto 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+@media screen and (max-width: 767px) {
+    .header__extra-menu {
+        display: none;
+    }
+}
