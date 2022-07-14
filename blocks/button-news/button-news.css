@@ -1,0 +1,16 @@
+.button-news {
+    border: 1px solid #FFFFFF;
+    min-height: 50px;
+    transition: opacity .2s linear;
+    border-radius: 8px;
+    color: white;
+    width: 329px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    margin: 0 0 32px 32px;
+}
+
+.button-news:hover {
+    opacity: 0.6;
+}

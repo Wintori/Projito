@@ -8,9 +8,9 @@
 }
 
 @font-face {
-font-family: 'PT';
-font-style: normal;
-src: url('./fonts/PT-Sans/PTSans-Regular.woff2') format("woff2"),
-url('./fonts/PT-Sans/PTSans-Regular.ttf') format("ttf");
-font-weight: 400;
+  font-family: 'PT';
+  font-style: normal;
+  src: url('./fonts/PT-Sans/PTSans-Regular.woff2') format("woff2"),
+  url('./fonts/PT-Sans/PTSans-Regular.ttf') format("ttf");
+  font-weight: 400;
 }

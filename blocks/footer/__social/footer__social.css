@@ -1,0 +1,11 @@
+.footer__social {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+@media screen and (max-width: 1399px) {
+    .footer__social {
+        flex-direction: column;
+    }
+}
