@@ -13,6 +13,7 @@
 @import url(../blocks/header/__menu-link/header__menu-link.css);
 @import url(../blocks/header/__menu-links/header__menu-links.css);
 @import url(../blocks/header/__menu-link/_active/header__menu-link_active.css);
+
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__menu/footer__menu.css);
 @import url(../blocks/footer/__menu-list/footer__menu-list.css);
@@ -25,3 +26,25 @@
 @import url(../blocks/footer/__social-container/footer__social-container.css);
 @import url(../blocks/footer/__info/footer__info.css);
 @import url(../blocks/footer/__social-links/_mobile/footer__social-links_mobile.css);
+
+@import url('../blocks/element/__block-more/element__block-more.css');
+@import url('../blocks/element/__block-text/element__block-text.css');
+@import url('../blocks/element/__button/element__button.css');
+@import url('../blocks/element/__icon/element__icon.css');
+@import url('../blocks/element/__link/element__link.css');
+@import url('../blocks/element/__paragraph/element__paragraph.css');
+@import url('../blocks/element/__title/element__title.css');
+@import url('../blocks/element/element.css');
+@import url('../blocks/elements/elements.css');
+
+@import url('../blocks/project/__block-date/project__block-date.css');
+@import url('../blocks/project/__block-image/project__block-image.css');
+@import url('../blocks/project/__block-paragraph/project__block-paragraph.css');
+@import url('../blocks/project/__block-text/project__block-text.css');
+@import url('../blocks/project/__block-title/project__block-title.css');
+@import url('../blocks/project/__block/project__block.css');
+@import url('../blocks/project/__button/project__button.css');
+@import url('../blocks/project/__container/project__container.css');
+@import url('../blocks/project/__title/project__title.css');
+@import url('../blocks/project/project.css');
+@import url('../blocks/project/__button-arrow/project__button-arrow.css')
