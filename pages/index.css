@@ -3,6 +3,18 @@
 @import url(../blocks/page/page.css);
 @import url(../blocks/content/content.css);
 
+@import url('../blocks/banner/__arrow/banner__arrow.css');
+@import url('../blocks/banner/__buttons/banner__buttons.css');
+@import url('../blocks/banner/__content/banner__content.css');
+@import url('../blocks/banner/__image/banner__image.css');
+@import url('../blocks/banner/__material-button/banner__material-button.css');
+@import url('../blocks/banner/__quote/banner__quote.css');
+@import url('../blocks/banner/__request-button/banner__request-button.css');
+@import url('../blocks/banner/__text/banner__text.css');
+@import url('../blocks/banner/__title/banner__title.css');
+@import url('../blocks/banner/_place/banner_place_center.css');
+@import url('../blocks/banner/banner.css');
+
 @import url(../blocks/header/header.css);
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/header/__main-menu/header__main-menu.css);

@@ -1,0 +1,27 @@
+.banner__title {
+  grid-column: 2;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 100%;
+  margin: 0 0 32px 0;
+}
+
+@media screen and (max-width: 1439px) {
+  .banner__title {
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 12px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .banner__title {
+    font-size: 26px;
+    max-width: min-content;
+    grid-column: 1;
+    grid-row: 1;
+    line-height: 100%;
+    margin: 0 auto 16px auto;
+    text-align: center;
+  }
+}
