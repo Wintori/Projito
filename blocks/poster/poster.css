@@ -1,0 +1,7 @@
+.poster {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #323232;
+    width: 477px;
+}
