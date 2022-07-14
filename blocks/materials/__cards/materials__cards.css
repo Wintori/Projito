@@ -3,6 +3,7 @@
   padding: 0;
   display: grid;
   grid-template-columns: repeat(3, 328px);
+  grid-template-rows: minmax(360px, fill-content);
   gap: 80px;
   margin: 40px auto 75px auto;
   max-width: max-content;
@@ -18,7 +19,7 @@
 
 @media screen and (max-width: 767px) {
   .materials__cards {
-    margin: 24px auto 24px 32px;
+    margin: 24px auto 18px 40px;
     grid-template-columns: repeat(3, 276px);
   }
 }
