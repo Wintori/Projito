@@ -1,0 +1,8 @@
+.header__extra-menu-list {
+    text-decoration: none;
+    margin-right: 60px;
+}
+
+.header__extra-menu-list:last-child {
+    margin-right: 0px;
+}

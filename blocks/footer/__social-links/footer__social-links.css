@@ -1,0 +1,10 @@
+.footer__social-links {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 1399px) {
+    .footer__social-links {
+        display: none;
+    }
+}
