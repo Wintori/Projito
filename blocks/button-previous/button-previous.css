@@ -7,10 +7,17 @@
     min-height: 36px;
     min-width: 36px;
     transition: opacity .2s linear;
-    border-radius: 100px;
+    border-radius: 50px;
     margin-right: 12px;
 }
 
 .button-previous:hover {
     opacity: 0.6;
+}
+
+@media screen and (max-width: 768px) {
+    .button-previous {
+        min-height: 32px;
+        min-width: 32px;
+    }
 }
