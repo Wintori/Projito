@@ -1,0 +1,36 @@
+.banner__buttons {
+  display: flex;
+}
+
+.banner__buttons > :nth-child(n) {
+  margin-right: 20px;
+}
+
+.banner__buttons > :last-child {
+  margin-right: 0;
+}
+
+@media screen and (max-width: 1439px) {
+  .banner__buttons > :nth-child(n) {
+    margin-right: 12px;
+  }
+
+  .banner__buttons > :last-child {
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .banner__buttons {
+    flex-direction: column;
+    flex-direction: column-reverse;
+  }
+
+  .banner__buttons > :nth-child(n) {
+    margin: 16px auto 0 auto;
+  }
+
+  .banner__buttons > :last-child {
+    margin-top: 0;
+  }
+}

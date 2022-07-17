@@ -1,0 +1,21 @@
+.materials__title {
+  margin: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 46px;
+  line-height: 120%;
+}
+
+@media screen and (max-width: 1439px) {
+  .materials__title {
+    font-size: 30px;
+    line-height: 37px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .materials__title {
+    font-size: 32px;
+    line-height: 120%;
+  }
+}

@@ -1,0 +1,24 @@
+.header__mobile-menu {
+    display: none;
+    flex-wrap: wrap;
+    width: 90vw;
+    border-bottom: 1px solid rgba(50, 50, 50, 0.3);
+    border-top: 1px solid rgba(50, 50, 50, 0.3);
+    position: absolute;
+    top: 50px;
+    right: 0;
+    background-color: #F7F4F0;
+    z-index: 2;
+}
+
+.header__mobile-menu::before, .header__mobile-menu::after {
+    content: '';
+    width: 100%;
+    order: 1;
+}
+
+@media screen and (min-width: 768px) {
+    .header__mobile-menu {
+        display: none;
+    }
+}
