@@ -1,0 +1,12 @@
+.card {
+    border-radius: 8px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 526px;;
+}
+.card:hover {
+    opacity: 0.8;
+}

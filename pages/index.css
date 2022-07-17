@@ -109,3 +109,19 @@
 @import url('../blocks/popup/__title/popup__title.css');
 @import url('../blocks/popup/__subtitle/popup__subtitle.css');
 @import url('../blocks/popup/__close/popup__close.css');
+
+@import url('../blocks/cards/cards.css');
+@import url('../blocks/card/card.css');
+@import url('../blocks/card/__content/card__content.css');
+
+@import url('../blocks/card/__theme/card__theme.css');
+@import url('../blocks/card/__theme/_read-experience/theme_read-experience.css');
+@import url('../blocks/card/__title/card__title.css');
+@import url('../blocks/card/__title/_read-experience/title_read-experience.css');
+@import url('../blocks/card/__image/card__image.css');
+@import url('../blocks/card/__subtitle/card__subtitle.css');
+@import url('../blocks/card/__subtitle/_read-experience/subtitle_read-experience.css');
+@import url('../blocks/card/__description/card__description.css');
+@import url('../blocks/card/_read-experience/card_read-experience.css');
+@import url('../blocks/card/_theme-collection/card_theme-collection.css');
+@import url('../blocks/card/_specproject/card_specproject.css');
