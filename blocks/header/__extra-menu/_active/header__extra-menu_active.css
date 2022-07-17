@@ -1,9 +1,0 @@
-.header__extra-menu_active {
-    display: flex !important;
-}
-
-@media screen and (max-width: 767px) {
-    .header__extra-menu_active {
-        display: none !important;
-    }
-}
