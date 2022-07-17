@@ -5,6 +5,7 @@
   border-radius: 8px;
   background-color: inherit;
   border: 1px solid #a5cdab;
+  color: #323232;
   font-family: "PT", "Arial", sans-serif;
   font-weight: 400;
   font-size: 20px;
@@ -38,5 +39,9 @@
   .banner__material-button {
     width: 335px;
     height: 50px;
+  }
+
+  .banner__material-button:hover {
+    border-color: inherit;
   }
 }
