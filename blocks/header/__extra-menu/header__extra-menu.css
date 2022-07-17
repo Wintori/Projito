@@ -1,9 +1,22 @@
 .header__extra-menu {
     margin: 12px auto 0;
     width: 100%;
-    display: flex;
+    padding: 12px 0;
+    display: none;
     justify-content: flex-end;
     align-items: center;
+    position: absolute;
+    bottom: -50px;
+    right: 0;
+    background-color: #F7F4F0;
+    z-index: 1;
+}
+
+@media screen and (max-width: 1399px) and (min-width: 768px) {
+    .header__extra-menu {
+        padding-top: 10px;
+        bottom: -41px;
+    }
 }
 
 @media screen and (max-width: 767px) {
