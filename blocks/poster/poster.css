@@ -3,5 +3,22 @@
     flex-direction: column;
     justify-content: space-between;
     background-color: #323232;
-    width: 477px;
+    min-width: 477px;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .poster {
+        min-width: 253px;
+    }
+
+}
+
+@media screen and (max-width: 360px) {
+
+    .poster {
+
+    }
+
 }

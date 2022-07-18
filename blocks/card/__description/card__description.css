@@ -1,0 +1,10 @@
+.card__description {
+    font-family: 'PT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #F5F5F5;
+    max-width: 295px;
+    margin: 0 16px 24px 16px;
+}
