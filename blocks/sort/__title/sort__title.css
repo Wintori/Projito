@@ -1,0 +1,10 @@
+.sort__title {
+    font-family: 'PT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #000000;
+    margin: 0 auto 16px auto;
+    max-width: 119px;
+}

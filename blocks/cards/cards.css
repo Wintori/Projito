@@ -1,6 +1,6 @@
 .cards {
-    max-width: 1143px;
-    margin: 0 auto;
+    max-width: 1144px;
+    margin: 0 auto 40px auto;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(328px, 1fr));
     /* grid-template-rows: repeat(auto-fit, minmax(526px, 1fr)); */

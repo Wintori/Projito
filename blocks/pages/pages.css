@@ -1,0 +1,6 @@
+.pages {
+    max-width: 678px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto 62px auto;
+}
