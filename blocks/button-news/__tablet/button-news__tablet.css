@@ -1,0 +1,12 @@
+.button-news__tablet {
+    border-radius: 50px;
+    background-color: #A5CDAB;
+    margin: 0 0 0 27px;
+    transition: opacity .2s linear;
+    width: 32px;
+    height: 32px;
+}
+
+.button-news__tablet:hover {
+    opacity: 0.6;
+}
