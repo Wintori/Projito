@@ -1,4 +1,5 @@
 .popup {
+    display: none;
     max-width: 237px;
     background-color: #A5CDAB;
     position: absolute;

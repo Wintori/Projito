@@ -40,6 +40,8 @@
 @import url('../blocks/header/__menu-link/header__menu-link.css');
 @import url('../blocks/header/__menu-links/header__menu-links.css');
 @import url('../blocks/header/__menu-link/_active/header__menu-link_active.css');
+@import url('../blocks/header/__extra-menu/_active/header__extra-menu_active.css');
+@import url('../blocks/header/__mobile-menu/_active/header__mobile-menu_active.css');
 
 @import url('../blocks/content/information/information.css');
 @import url('../blocks/content/information/__subtitle/information__subtitle.css');
