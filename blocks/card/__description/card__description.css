@@ -8,3 +8,9 @@
     max-width: 295px;
     margin: 0 16px 24px 16px;
 }
+
+@media (max-width: 800px) {
+    .card__description {
+        display: none;
+    }
+}

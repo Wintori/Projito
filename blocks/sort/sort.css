@@ -2,3 +2,21 @@
     width: 574px;
     margin: 0 auto 36px auto;
 }
+
+@media (max-width: 768px) {
+    .sort {
+        width: 482px;
+    }
+}
+
+@media (max-width: 520px) {
+    .sort {
+        width: 450px;
+    }
+}  
+
+@media (max-width: 470px) {
+    .sort {
+        display: none;
+    }
+}   

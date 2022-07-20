@@ -3,6 +3,35 @@
     margin: 0 auto 40px auto;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(328px, 1fr));
-    /* grid-template-rows: repeat(auto-fit, minmax(526px, 1fr)); */
+    
     gap: 62px 80px;
+}
+
+@media (max-width: 1200px) {
+    .cards {
+        max-width: 800px;
+        gap: 52px 70px;
+    }
+}
+
+@media (max-width: 800px) {
+    .cards {
+        max-width: 612px;
+        max-height: 278px;
+        grid-template-columns: repeat(3, 175px);
+        grid-template-rows: 278px;
+        gap: 41px;
+        overflow: hidden;
+    }
+}
+
+@media (max-width: 650px) {
+    .cards {
+        max-width: 391px;
+        max-height: 278px;
+        grid-template-columns: repeat(2, 175px);
+        grid-template-rows: 278px;
+        gap: 41px;
+        overflow: hidden;
+    }
 }

@@ -5,3 +5,11 @@
     border-radius: 50%;
     margin: 0 auto 20px auto;
 }
+
+@media (max-width: 800px) {
+    .card__image {
+        width: 86px;
+        height: 86px;
+        margin: 0 auto 4px auto;
+    }
+}

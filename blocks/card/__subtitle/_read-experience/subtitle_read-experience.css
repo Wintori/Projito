@@ -7,4 +7,13 @@
     margin-bottom: 72px;
     text-align: center;
     color: #323232;
+    max-width: 297px;
+}
+
+@media (max-width: 800px) {
+    .subtitle_read-experience {
+        font-size: 11px;
+        line-height: 16px;
+        margin-bottom: 18px;
+    }
 }

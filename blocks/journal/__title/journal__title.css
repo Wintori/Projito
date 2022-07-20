@@ -7,3 +7,24 @@
     margin: 0 auto 62px auto;
     max-width: 388px;
 }
+
+@media (max-width: 800px) {
+    .journal__title {
+        font-size: 30px;
+        line-height: 39px;
+        max-width: 253px;
+        margin: 0 auto 24px auto;
+    }
+}
+
+@media (max-width: 470px) {
+    .journal__title {
+        font-family: 'WF';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 120%;
+        max-width: 281px;
+        margin: 0 auto 0 12px;
+    }
+}
