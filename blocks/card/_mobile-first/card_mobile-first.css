@@ -1,0 +1,10 @@
+@media (max-width: 470px) {
+    .card_mobile-first {
+        height: 352px;
+        width: 252px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 3;
+    }
+}

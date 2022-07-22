@@ -43,8 +43,8 @@
 @import url('../blocks/header/__extra-menu/_active/header__extra-menu_active.css');
 @import url('../blocks/header/__mobile-menu/_active/header__mobile-menu_active.css');
 
-@import url('../blocks/content/information/information.css');
-@import url('../blocks/content/information/__subtitle/information__subtitle.css');
+@import url('../blocks/information/information.css');
+@import url('../blocks/information/__subtitle/information__subtitle.css');
 
 @import url('../blocks/button/button.css');
 @import url('../blocks/button-news/button-news.css');

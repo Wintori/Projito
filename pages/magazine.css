@@ -28,6 +28,9 @@
 @import url('../blocks/card/_read-experience/card_read-experience.css');
 @import url('../blocks/card/_theme-collection/card_theme-collection.css');
 @import url('../blocks/card/_specproject/card_specproject.css');
+@import url('../blocks/card/_mobile-first/card_mobile-first.css');
+@import url('../blocks/card/_mobile-second/card_mobile-second.css');
+@import url('../blocks/card/_mobile-third/card_mobile-third.css');
 
 @import url('../blocks/pages/pages.css');
 @import url('../blocks/pages/__arrow/pages__arrow.css');

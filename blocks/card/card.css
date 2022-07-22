@@ -17,3 +17,11 @@
         height: 277px;
     }
 }
+
+@media (max-width: 470px) {
+    .card {
+        height: 352px;
+        width: 252px;
+    }
+}
+

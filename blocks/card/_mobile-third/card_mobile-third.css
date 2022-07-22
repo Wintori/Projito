@@ -1,0 +1,10 @@
+@media (max-width: 470px) {
+    .card_mobile-third {
+        height: 352px;
+        width: 252px;
+        position: absolute;
+        top: 0;
+        left: 100;
+        z-index: 1;
+    }
+}

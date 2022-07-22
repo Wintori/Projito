@@ -1,3 +1,14 @@
+const buttonClose = document.querySelector ('.popup__button_close');
+const popup = document.querySelector('.popup');
+
+
+function closePopup(popupElement) {    //ФУНКЦИЯ ЗАКРЫТИЯ ПОПАПА
+    popupElement.classList.add('popup_closed');
+  }
+
+  buttonClose.addEventListener('click', function (){    //Закрытие попапа на кнопку
+    closePopup(popup)
+  });
 let offset = 0;
 const sliderLine = document.querySelector('.news__list'); // слайдер News
 let sliderCount = sliderLine.childElementCount; // кол-во карточек в слайдере
