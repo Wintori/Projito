@@ -4,7 +4,13 @@
         width: 252px;
         position: absolute;
         top: 0;
-        left: 100;
+        left: 100px;
         z-index: 1;
+        transition: z-index 0.3s ease;
+    }
+    .card_mobile-third:hover {
+        z-index: 5;
+        opacity: 1;
+        transition: z-index 0.3s ease;
     }
 }

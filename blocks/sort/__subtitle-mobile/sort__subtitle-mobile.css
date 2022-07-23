@@ -12,6 +12,11 @@
     text-decoration: none;
 }
 
+.sort__subtitle-mobile:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
 @media (max-width: 470px) {
     .sort__subtitle-mobile {
         display: inline-block;  

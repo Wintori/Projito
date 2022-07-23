@@ -6,5 +6,11 @@
         top: 0;
         left: 0;
         z-index: 3;
+        transition: z-index 0.3s ease;
+    }
+    .card_mobile-first:hover {
+        z-index: 5;
+        opacity: 1;
+        transition: z-index 0.3s ease;
     }
 }

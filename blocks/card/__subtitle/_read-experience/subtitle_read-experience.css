@@ -17,3 +17,9 @@
         margin-bottom: 18px;
     }
 }
+
+@media (max-width: 470px) {
+    .subtitle_read-experience {
+        margin: 16px 8px 12px 8px;
+    }
+}

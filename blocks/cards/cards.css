@@ -35,13 +35,25 @@
     }
 }
 
-@media (max-width: 470px) {
+/* @media (max-width: 470px) {
     .cards {
-        
         display: flex;
         gap: 0;
         max-width: 346px;
         max-height: 352px;
         margin: 0 0 0 12px;
+    }
+}  */
+
+@media (max-width: 470px) {
+    .cards {
+        position: relative;
+        max-width: 360px;
+        max-height: 352px;
+        gap: 0;
+        border-radius: 8px;
+        margin-left: 12px;
+        margin-right: 12px;
+        margin-bottom: 137px;
     }
 }
