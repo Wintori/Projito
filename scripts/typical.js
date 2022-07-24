@@ -1,21 +1,3 @@
-const article = document.querySelector('.article');
-
-function readTextFileToElement(file, element) {
-  const rawFile = new XMLHttpRequest();
-  rawFile.open("GET", file, false);
-  rawFile.onreadystatechange = function () {
-    if (rawFile.readyState === 4) {
-      if (rawFile.status === 200 || rawFile.status == 0) {
-        const allText = rawFile.responseText;
-        element.innerHTML = allText;
-      }
-    }
-  }
-  rawFile.send(null);
-}
-
-readTextFileToElement('../articles/sample.html', article)
-
 const slider = document.querySelector('.article .gallery');
 
 const imgElement = document.createElement('div');
@@ -30,6 +12,8 @@ let countImg = 0;
 imgElement.append(sliderImages[0]);
 captionElement.append(sliderCaptions[0]);
 const counterElement = document.createElement('div');
+counterElement.style.minWidth = '35px';
+counterElement.style.marginLeft = '5px';
 counterElement.textContent = `${countImg + 1} / ${sliderImages.length}`;
 sliderCaptions[0].append(counterElement);
 sliderCaptions[0].style.justifyContent = `space-between`;
