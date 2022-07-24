@@ -1,11 +1,5 @@
 .poster-type {
     display: flex;
-    margin: 16px 0 24px 0;
+    margin: 0 0 24px 0;
     padding: 0;
-}
-
-@media screen and (max-width: 768px) {
-    .poster-type {
-        margin: 16px 0 16px 0;
-    }
 }
