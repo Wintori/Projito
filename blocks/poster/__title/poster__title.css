@@ -7,11 +7,3 @@
     color: #F5F5F5;
     max-width: 260px;
 }
-
-@media screen and (max-width: 768px) {
-    .poster__title {
-        font-size: 30px;
-        line-height: 37px;
-        max-width: 132px;
-    }
-}

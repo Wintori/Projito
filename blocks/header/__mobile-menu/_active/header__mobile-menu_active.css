@@ -1,9 +1,0 @@
-.header__mobile-menu_active {
-    display: flex !important;
-}
-
-@media screen and (min-width: 768px) {
-    .header__mobile-menu_active {
-        display: none !important;
-    }
-}

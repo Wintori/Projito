@@ -9,3 +9,18 @@
     margin-top: 32px;
     margin-bottom: 20px;
 }
+
+@media (max-width: 800px) {
+    .title_read-experience {
+        font-size: 18px;
+        line-height: 22px;
+        margin-top: 12px;
+        margin-bottom: 4px;
+    }
+}
+
+@media (max-width: 470px) {
+    .title_read-experience {
+        margin: 16px 8px 12px 8px;
+    }
+}
