@@ -6,7 +6,6 @@ const sliderImages = slider.querySelectorAll('.content .image img');
 const captionElement = document.createElement('div');
 const captionContainer = slider.querySelector('.image');
 const sliderCaptions = slider.querySelectorAll('.content .image figcaption');
-console.log(sliderImages);
 
 let countImg = 0;
 imgElement.append(sliderImages[0]);
@@ -33,29 +32,28 @@ imgElement.style.display = 'flex';
 imgContainer.prepend(imgElement);
 captionContainer.append(captionElement);
 
-console.log(sliderImages[0].clientWidth);
 widthImg = sliderImages[0].clientWidth;
 
 const arrowNext = document.createElement('div');
-arrowNext.style.cssText = `
+const styleArrow = `
   content: "";
   position: absolute;
   top: 388px;
-  right: 116px;
   width: 18px;
   height: 10px;
+`;
+
+arrowNext.style.cssText = `
+  ${styleArrow}
+  right: 116px;
   background: url('../../images/arrow-next.svg') no-repeat center / cover;
 `;
 imgContainer.append(arrowNext);
 
 const arrowPrevious = document.createElement('div');
 arrowPrevious.style.cssText = `
-  content: "";
-  position: absolute;
-  top: 388px;
+${styleArrow}
   left: 116px;
-  width: 18px;
-  height: 10px;
   background: url('../../images/arrow-previous.svg') no-repeat center / cover;
   display: none;
 `;
@@ -75,21 +73,13 @@ function handleTabletChange() {
     const prevDisplay = arrowPrevious.style.display;
 
     arrowNext.style.cssText = `
-      content: "";
-      position: absolute;
-      top: 388px;
+      ${styleArrow}
       right: 116px;
-      width: 18px;
-      height: 10px;
       background: url('../../images/arrow-next.svg') no-repeat center / cover;
     `;
     arrowPrevious.style.cssText = `
-      content: "";
-      position: absolute;
-      top: 388px;
+      ${styleArrow}
       left: 116px;
-      width: 18px;
-      height: 10px;
       background: url('../../images/arrow-previous.svg') no-repeat center / cover;
     `;
     arrowNext.style.display = nextDisplay;
