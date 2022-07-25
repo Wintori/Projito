@@ -75,3 +75,25 @@ menuButtonAbout.onmouseover = function(e) {
 extraMenu.addEventListener("mouseleave", function(e){
     extraMenu.classList.remove('header__extra-menu_active');
 });
+
+let offsetSliderMaterials = 288;
+const lineMaterial = document.querySelector('.materials__cards');
+const sliderMaterialDots = document.querySelectorAll('.materials__slide');
+
+sliderMaterialDots.forEach((el, index) => {
+  el.addEventListener('click', () => {
+    if(sliderMaterialDots[0] === el) {
+      lineMaterial.style.left = '0';
+    } else {
+      lineMaterial.style.left = `-${offsetSliderMaterials * index}px`;
+    }
+    sliderMaterialDots.forEach(el => {
+      if (el.childNodes[1].classList.contains('materials__slide-button_active')) {
+        el.childNodes[1].classList.remove('materials__slide-button_active');
+      }
+    });
+    el.childNodes[1].classList.add('materials__slide-button_active');
+  });
+});
+
+
