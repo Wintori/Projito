@@ -5,8 +5,16 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 526px;;
+    height: 526px;
 }
+
 .card:hover {
     opacity: 0.8;
+    cursor: pointer;
+}
+
+@media (max-width: 800px) {
+    .card {
+        height: 277px;
+    }
 }

@@ -4,11 +4,18 @@
     height: 680px;
 }
 
+@media screen and (max-width: 1440px) {
+
+    .magazine {
+
+    }
+
+}
+
 @media screen and (max-width: 768px) {
 
     .magazine {
-        height: 380px;
-        margin: 0 0 32px 0;
+
     }
 
 }

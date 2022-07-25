@@ -1,10 +1,16 @@
 .popup {
-    display: none;
     max-width: 237px;
-    background-color: #A5CDAB;
+    background-color: rgba(165, 205, 171, 1);
     position: absolute;
     top: 0;
     right: 0;
+
+    opacity: 1;
+    visibility: visible;
+}
+
+.popup:hover {
+    background-color: rgba(165, 205, 171, 0.5);
 }
 
 @media (max-width: 800px) {

@@ -22,7 +22,7 @@
 
 @media screen and (max-width: 767px) {
   .materials__cards {
-    margin: 24px auto 18px calc((100% - 276px) / 2);
+    margin: 24px auto 18px 40px;
     grid-template-columns: repeat(3, 276px);
   }
 }
