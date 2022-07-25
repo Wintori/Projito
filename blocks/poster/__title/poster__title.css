@@ -15,3 +15,13 @@
         max-width: 132px;
     }
 }
+
+@media screen and (max-width: 360px) {
+    .poster__title {
+        font-size: 32px;
+        line-height: 120%;
+        color: #323232;
+        max-width: unset;
+        margin: 0 0 0 12px;
+    }
+}

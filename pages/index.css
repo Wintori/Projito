@@ -52,6 +52,7 @@
 @import url('../blocks/page/page.css');
 @import url('../blocks/content/content.css');
 @import url('../blocks/news/news.css');
+@import url('../blocks/news/__mobile/news__mobile.css');
 @import url('../blocks/news/__cards/news__cards.css');
 @import url('../blocks/poster/poster.css');
 @import url('../blocks/poster/__title/poster__title.css');
@@ -69,6 +70,7 @@
 @import url('../blocks/news/__card-description/news__card-description.css');
 @import url('../blocks/news/__card/_active/news__card_active.css');
 @import url('../blocks/magazine/magazine.css');
+@import url('../blocks/magazine-mobile/magazine-mobile.css');
 
 @import url('../blocks/footer/footer.css');
 @import url('../blocks/footer/__menu/footer__menu.css');

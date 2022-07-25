@@ -14,3 +14,18 @@
         height: 286px;
     }
 }
+
+@media screen and (max-width: 360px) {
+    .news__card {
+        width: calc(100vw - 24px);
+        height: auto;
+        border: none;
+        overflow: unset;
+        padding: 0;
+        margin: 0 auto 16px auto;
+    }
+
+    .news__card:last-of-type {
+        margin: 0 auto 32px auto;
+    }
+}

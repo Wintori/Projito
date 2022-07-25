@@ -21,3 +21,17 @@
         display: none;
     }
 }
+
+@media screen and (max-width: 360px) {
+    .button-news {
+        display: block;
+        border: none;
+        border-radius: unset;
+        min-height: 18px;
+        font-size: 14px;
+        line-height: 18px;
+        margin: 16px 0 0 12px;
+        width: auto;
+        color: #323232;
+    }
+}

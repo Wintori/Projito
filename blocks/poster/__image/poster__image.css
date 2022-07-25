@@ -14,3 +14,14 @@
     }
 
 }
+
+@media screen and (max-width: 360px) {
+
+    .poster__image {
+        width: 21.61px;
+        height: 12.02px;
+        margin: auto 0 auto 18px;
+
+    }
+
+}
