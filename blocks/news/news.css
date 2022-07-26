@@ -23,7 +23,8 @@
 @media screen and (max-width: 360px) {
 
     .news {
-
+        display: none;
+        height: unset;
     }
 
 }
