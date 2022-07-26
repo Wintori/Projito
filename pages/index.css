@@ -93,6 +93,8 @@
 
 @import url('../blocks/project/__block-date/project__block-date.css');
 @import url('../blocks/project/__block-image/project__block-image.css');
+@import url('../blocks/project/__block-image/_books/project__block-image_books.css');
+@import url('../blocks/project/__block-image/_people/project__block-image_people.css');
 @import url('../blocks/project/__block-paragraph/project__block-paragraph.css');
 @import url('../blocks/project/__block-text/project__block-text.css');
 @import url('../blocks/project/__block-title/project__block-title.css');

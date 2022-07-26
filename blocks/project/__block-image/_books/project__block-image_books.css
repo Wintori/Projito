@@ -1,0 +1,12 @@
+.project__block-image_books {
+    background: url('../../../../images/books.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media screen and (max-width: 1100px) {
+    .project__block-image_books{
+        background: url('../../../../images/books2.png');
+
+    }
+}
