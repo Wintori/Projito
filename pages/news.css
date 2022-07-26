@@ -1,0 +1,5 @@
+@import url('../blocks/allNews/allNews.css');
+@import url('../blocks/allNews/__title/allNews__title.css');
+@import url('../blocks/allNews/__list/allNews__list.css');
+@import url('../blocks/news/__card/_allNews/news__card_allNews.css');
+@import url('../blocks/news/__card-description/_allNews/news__card-description_allNews.css');
