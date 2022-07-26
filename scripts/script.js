@@ -6,8 +6,11 @@ function closePopup(popupElement) {    //ФУНКЦИЯ ЗАКРЫТИЯ ПОП�
     popupElement.classList.add('popup_closed');
   }
 
+buttonClose.addEventListener('click', function (){    //Закрытие попапа на кнопку
+    closePopup(popup)
+});
 
-//--------------------------------------------
+//-------------------------------------------------------------------------------
 
 const extraMenu = document.querySelector('.header__extra-menu'),
       menuButtonAbout = document.querySelector('#header-menu-about'),
@@ -31,7 +34,7 @@ menuButtonAbout.onmouseover = function(e) {
 extraMenu.addEventListener("mouseleave", function(e){
     extraMenu.classList.remove('header__extra-menu_active');
 });
-
+//-------------------------------------------------------------------------------------
 let offsetSliderMaterials = 288;
 const lineMaterial = document.querySelector('.materials__cards');
 const sliderMaterialDots = document.querySelectorAll('.materials__slide');
@@ -53,11 +56,12 @@ sliderMaterialDots.forEach((el, index) => {
 });
 
 
-  buttonClose.addEventListener('click', function (){    //Закрытие попапа на кнопку
-    closePopup(popup)
-  });
+//----------------------------------------------------------------------------------------------------------
 
-
+let offset = 0;
+const sliderLine = document.querySelector('.news__list'); // слайдер News
+let sliderCount = sliderLine.childElementCount; // кол-во карточек в слайдере
+const windowInnerWidth = document.documentElement.clientWidth // Считываем размер экрана
 
 if (windowInnerWidth > 768) {
      sliderLenght = sliderCount * cardSizeWindow;
