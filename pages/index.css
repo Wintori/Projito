@@ -33,8 +33,10 @@
 @import url('../blocks/logo/logo.css');
 @import url('../blocks/header/__main-menu/header__main-menu.css');
 @import url('../blocks/header/__extra-menu/header__extra-menu.css');
+@import url('../blocks/header/__extra-menu/_active/header__extra-menu_active.css');
 @import url('../blocks/header/__menu-button/header__menu-button.css');
 @import url('../blocks/header/__mobile-menu/header__mobile-menu.css');
+@import url('../blocks/header/__mobile-menu/_active/header__mobile-menu_active.css');
 @import url('../blocks/header/__extra-menu-list/header__extra-menu-list.css');
 @import url('../blocks/header/__menu-list/header__menu-list.css');
 @import url('../blocks/header/__menu-link/header__menu-link.css');

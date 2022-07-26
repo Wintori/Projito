@@ -9,7 +9,7 @@
 }
 
 .header__menu-link:hover {
-    padding-bottom: 14px;
+    padding-bottom: 12px;
     border-bottom: 1px solid #323232;
 }
 
@@ -20,8 +20,15 @@
     }
     
     .header__menu-link:hover {
-        padding-bottom: 17px;
+        padding-bottom: 15px;
         border-bottom: 1px solid #323232;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .header__menu-link {
+        font-size: 14px;
+        line-height: 18px;
     }
 }
 
