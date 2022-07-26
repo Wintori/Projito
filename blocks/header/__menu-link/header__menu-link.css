@@ -26,6 +26,13 @@
 }
 
 @media screen and (max-width: 767px) {
+    .header__menu-link {
+        font-size: 14px;
+        line-height: 18px;
+    }
+}
+
+@media screen and (max-width: 767px) {
     .header__menu-link:hover {
         padding-bottom: 0;
         border-bottom: 1px solid #323232;

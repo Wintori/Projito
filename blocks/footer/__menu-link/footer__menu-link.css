@@ -1,5 +1,6 @@
 .footer__menu-link {
     text-decoration: none;
+    text-transform: uppercase;
     font-family: 'PT', "Arial", sans-serif;
     font-style: normal;
     font-weight: 400;
