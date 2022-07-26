@@ -1,3 +1,9 @@
 .news__cards {
+    overflow: hidden;
+}
 
+@media screen and (max-width: 360px) {
+    .news__cards {
+        overflow: unset;
+    }
 }

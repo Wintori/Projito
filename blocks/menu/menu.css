@@ -1,0 +1,21 @@
+.menu  {
+    display: flex;
+    background:  #F5F5F5;
+
+}
+
+.menu ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    padding-left: 20px;
+    padding-bottom: 47px;
+}
+
+@media screen and(max-width: 768px){
+    .menu ul {
+        padding-left: 15px;
+        padding-bottom: 27px;
+    }
+}

@@ -7,3 +7,21 @@
     color: #F5F5F5;
     max-width: 260px;
 }
+
+@media screen and (max-width: 768px) {
+    .poster__title {
+        font-size: 30px;
+        line-height: 37px;
+        max-width: 132px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .poster__title {
+        font-size: 32px;
+        line-height: 120%;
+        color: #323232;
+        max-width: unset;
+        margin: 0 0 0 12px;
+    }
+}

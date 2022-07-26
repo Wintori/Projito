@@ -1,0 +1,11 @@
+.magazine-mobile {
+    display: none;
+}
+
+@media screen and (max-width: 360px) {
+    .magazine-mobile {
+        display: flex;
+        flex-direction: column;
+        margin: 0 0 32px 0;
+    }
+}

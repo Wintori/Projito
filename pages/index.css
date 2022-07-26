@@ -1,5 +1,6 @@
 @import url('../vendor/normalize.css');
 @import url('../vendor/fonts.css');
+@import url('../pages/main.css');
 @import url('../blocks/page/page.css');
 @import url('../blocks/content/content.css');
 
@@ -33,8 +34,10 @@
 @import url('../blocks/logo/logo.css');
 @import url('../blocks/header/__main-menu/header__main-menu.css');
 @import url('../blocks/header/__extra-menu/header__extra-menu.css');
+@import url('../blocks/header/__extra-menu/_active/header__extra-menu_active.css');
 @import url('../blocks/header/__menu-button/header__menu-button.css');
 @import url('../blocks/header/__mobile-menu/header__mobile-menu.css');
+@import url('../blocks/header/__mobile-menu/_active/header__mobile-menu_active.css');
 @import url('../blocks/header/__extra-menu-list/header__extra-menu-list.css');
 @import url('../blocks/header/__menu-list/header__menu-list.css');
 @import url('../blocks/header/__menu-link/header__menu-link.css');
@@ -51,6 +54,8 @@
 @import url('../blocks/page/page.css');
 @import url('../blocks/content/content.css');
 @import url('../blocks/news/news.css');
+@import url('../blocks/news/__mobile/news__mobile.css');
+@import url('../blocks/news/__cards/news__cards.css');
 @import url('../blocks/poster/poster.css');
 @import url('../blocks/poster/__title/poster__title.css');
 @import url('../blocks/poster-type/poster-type.css');
@@ -64,6 +69,7 @@
 @import url('../blocks/news/__card-description/news__card-description.css');
 @import url('../blocks/news/__card/_active/news__card_active.css');
 @import url('../blocks/magazine/magazine.css');
+@import url('../blocks/magazine-mobile/magazine-mobile.css');
 
 @import url('../blocks/footer/footer.css');
 @import url('../blocks/footer/__menu/footer__menu.css');
@@ -90,6 +96,8 @@
 
 @import url('../blocks/project/__block-date/project__block-date.css');
 @import url('../blocks/project/__block-image/project__block-image.css');
+@import url('../blocks/project/__block-image/_books/project__block-image_books.css');
+@import url('../blocks/project/__block-image/_people/project__block-image_people.css');
 @import url('../blocks/project/__block-paragraph/project__block-paragraph.css');
 @import url('../blocks/project/__block-text/project__block-text.css');
 @import url('../blocks/project/__block-title/project__block-title.css');
@@ -99,6 +107,7 @@
 @import url('../blocks/project/__title/project__title.css');
 @import url('../blocks/project/project.css');
 @import url('../blocks/project/__button-arrow/project__button-arrow.css');
+
 
 @import url('../blocks/popup/popup.css');
 @import url('../blocks/popup/__title/popup__title.css');
