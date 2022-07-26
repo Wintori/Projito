@@ -1,0 +1,12 @@
+.poster__button {
+    margin: 0 32px 40px 0;
+    padding: 0;
+    display: flex;
+    align-self: end;
+}
+
+@media screen and (max-width: 768px) {
+    .poster__button {
+        margin: 0 20px 41px 0;
+    }
+}

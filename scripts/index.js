@@ -23,16 +23,22 @@ sliderMaterialDots.forEach((el, index) => {
 //----------------------------------------------------------------------------------------------------------
 
 let offset = 0;
-const sliderLine = document.querySelector('.news__list'); // слайдер News
-let sliderCount = sliderLine.childElementCount; // кол-во карточек в слайдере
+const news = document.querySelector('.news');
+const sliderLineNews = news.querySelector('.news__list'); // слайдер News
+const magazine = document.querySelector('.magazine');
+const sliderLineMagazine = magazine.querySelector('.news__list');
+
+let sliderCountNews = sliderLineNews.childElementCount; // кол-во карточек в слайдере
+let sliderCountMagazine = sliderLineMagazine.childElementCount;
+
 const windowInnerWidth = document.documentElement.clientWidth // Считываем размер экрана
 
 if (windowInnerWidth > 768) {
-     sliderLenght = sliderCount * cardSizeWindow;
+     sliderLenght = sliderCountNews * 330;
 } else if (windowInnerWidth <= 768 && windowInnerWidth > 360) {
-     sliderLenght = sliderCount * cardSizeTablet;
+     sliderLenght = sliderCountNews * 180;
 } else {
-     sliderLenght = sliderCount * cardSizeTablet;
+     sliderLenght = sliderCountNews * 180;
 }
 
 function setSliderSize(sliderLine) {
@@ -42,21 +48,23 @@ function setSliderSize(sliderLine) {
 
 document.querySelector('.button-next').addEventListener('click', function () {
     if (windowInnerWidth > 768){
-        offset = offset + cardSizeWindow;
+        offset = offset + 330;
 
 
-        if (offset > (sliderLenght - cardSizeWindow * 3)) {
+        if (offset > (sliderLenght - 330 * 3)) {
             offset = 0;
         }
-        sliderLine.style.left = -offset + 'px';
+        sliderLineNews.style.left = -offset + 'px';
+        sliderLineMagazine.style.left = -offset + 'px';
     }else if (windowInnerWidth <= 768 && windowInnerWidth > 360) {
-        offset = offset + cardSizeTablet;
+        offset = offset + 180;
 
 
-        if (offset > (sliderLenght - cardSizeTablet * 3)) {
+        if (offset > (sliderLenght - 180 * 3)) {
             offset = 0;
         }
-        sliderLine.style.left = -offset + 'px';
+        sliderLineNews.style.left = -offset + 'px';
+        sliderLineMagazine.style.left = -offset + 'px';
     }
 
 });
@@ -66,6 +74,8 @@ document.querySelector('.button-previous').addEventListener('click', function ()
     if (offset < 0) {
         offset = sliderLenght - 330 * 3;
     }
-    sliderLine.style.left = -offset + 'px';
+    sliderLineNews.style.left = -offset + 'px';
+    sliderLineMagazine.style.left = -offset + 'px';
 });
-setSliderSize(sliderLine);
+setSliderSize(sliderLineNews);
+setSliderSize(sliderLineMagazine);

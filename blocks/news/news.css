@@ -4,18 +4,12 @@
     height: 560px;
 }
 
-@media screen and (max-width: 1440px) {
-
-    .news {
-
-    }
-
-}
 
 @media screen and (max-width: 768px) {
 
     .news {
-
+        height: 380px;
+        margin: 0 0 32px 0;
     }
 
 }

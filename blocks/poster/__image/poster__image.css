@@ -1,7 +1,7 @@
 .poster__image {
     width: 16.61px;
     height: 12.02px;
-    margin: 0 0 0 16px;
+    margin: 0;
     padding: 0;
 }
 
@@ -10,7 +10,6 @@
     .poster__image {
         width: 18px;
         height: 10px;
-        margin: 0;
     }
 
 }

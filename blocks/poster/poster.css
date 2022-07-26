@@ -5,3 +5,9 @@
     background-color: #323232;
     width: 477px;
 }
+
+@media screen and (max-width: 768px) {
+    .poster {
+        width: 253px;
+    }
+}
