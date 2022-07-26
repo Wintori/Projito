@@ -23,7 +23,7 @@ mobileMenuButton.addEventListener("click", function(){
        mobileMenuButton.style = "background-image: url('../blocks/header/images/mobile-menu.svg')";
     } else {
         mobileMenu.classList.add('header__mobile-menu_active');
-        mobileMenuButton.style = "background-image: url('../blocks/header/images/сlose.svg')";
+        mobileMenuButton.style = "background-image: url('../blocks/header/images/close.svg')";
     }
 });
 
