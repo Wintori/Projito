@@ -9,7 +9,7 @@
 }
 
 .header__menu-link:hover {
-    padding-bottom: 13px;
+    padding-bottom: 14px;
     border-bottom: 1px solid #323232;
 }
 
@@ -18,14 +18,9 @@
         font-size: 14px;
         line-height: 18px;
     }
-
-    .header__extra-menu-list > .header__menu-link:hover {
-        padding-bottom: 0;
-        border-bottom: 1px solid #323232 !important;
-    }
     
     .header__menu-link:hover {
-        padding-bottom: 16px;
+        padding-bottom: 17px;
         border-bottom: 1px solid #323232;
     }
 }

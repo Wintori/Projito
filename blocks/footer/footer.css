@@ -1,21 +1,16 @@
 .footer {
-    margin: 0 auto 94px;
-    max-width: 95vw;
-    /* max-width: 1400px; */
-    
+    margin: 0 auto;
+    max-width: 1400px;
 }
 
 @media screen and (max-width: 1399px) {
     .footer {
-        /* max-width: 736px; */
-        margin-bottom: 22px;
+        max-width: 736px;
     }
 }
 
 @media screen and (max-width: 767px) {
     .footer {
-        max-width: 90vw;
-        /* max-width: 336px; */
-        margin-bottom: 16px;
+        max-width: 336px;
     }
 }
