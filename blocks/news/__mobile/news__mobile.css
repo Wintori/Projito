@@ -1,0 +1,10 @@
+.news__mobile {
+    display: none;
+}
+
+@media screen and (max-width: 360px) {
+    .news__mobile {
+        display: flex;
+        flex-direction: column;
+    }
+}

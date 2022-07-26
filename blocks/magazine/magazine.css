@@ -4,26 +4,10 @@
     height: 680px;
 }
 
-@media screen and (max-width: 1440px) {
-
-    .magazine {
-
-    }
-
-}
-
-@media screen and (max-width: 768px) {
-
-    .magazine {
-
-    }
-
-}
-
 @media screen and (max-width: 360px) {
 
     .magazine {
-
+        display: none;
+        height: unset;
     }
-
 }
