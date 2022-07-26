@@ -8,3 +8,10 @@
     margin: 12px 17px 0 16px;
     max-width: 295px;
 }
+
+@media (max-width: 800px) {
+    .card__theme {
+        font-size: 12px;
+        line-height: 16px;
+    }
+}

@@ -7,6 +7,9 @@
   gap: 80px;
   margin: 40px auto 75px auto;
   max-width: max-content;
+  position: relative;
+  left: 0;
+  transition: left 0.3s;
 }
 
 @media screen and (max-width: 1439px) {
@@ -19,7 +22,7 @@
 
 @media screen and (max-width: 767px) {
   .materials__cards {
-    margin: 24px auto 18px calc((100% - 276px) / 2);
+    margin: 24px auto 18px 40px;
     grid-template-columns: repeat(3, 276px);
   }
 }

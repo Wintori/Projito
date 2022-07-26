@@ -41,12 +41,11 @@
 @import url('../blocks/header/__menu-links/header__menu-links.css');
 @import url('../blocks/header/__menu-link/_active/header__menu-link_active.css');
 
-@import url('../blocks/content/information/information.css');
-@import url('../blocks/content/information/__subtitle/information__subtitle.css');
+@import url('../blocks/information/information.css');
+@import url('../blocks/information/__subtitle/information__subtitle.css');
 
 @import url('../blocks/button/button.css');
 @import url('../blocks/button-news/button-news.css');
-@import url('../blocks/button-news/__tablet/button-news__tablet.css');
 @import url('../blocks/button-next/button-next.css');
 @import url('../blocks/button-previous/button-previous.css');
 @import url('../blocks/page/page.css');
@@ -56,9 +55,6 @@
 @import url('../blocks/news/__cards/news__cards.css');
 @import url('../blocks/poster/poster.css');
 @import url('../blocks/poster/__title/poster__title.css');
-@import url('../blocks/poster/__image/poster__image.css');
-@import url('../blocks/poster/__button/poster__button.css');
-@import url('../blocks/poster/__button/_text/poster__button_text.css');
 @import url('../blocks/poster-type/poster-type.css');
 @import url('../blocks/poster-type/__title/poster-type__title.css');
 @import url('../blocks/news/__list/news__list.css');
@@ -110,12 +106,13 @@
 @import url('../blocks/popup/popup.css');
 @import url('../blocks/popup/__title/popup__title.css');
 @import url('../blocks/popup/__subtitle/popup__subtitle.css');
-@import url('../blocks/popup/__close/popup__close.css');
+@import url('../blocks/popup/__link/popup__link.css');
+@import url('../blocks/popup/__button_close/popup__button_close.css');
+@import url('../blocks/popup/__closed/popup_closed.css');
 
 @import url('../blocks/cards/cards.css');
 @import url('../blocks/card/card.css');
 @import url('../blocks/card/__content/card__content.css');
-
 @import url('../blocks/card/__theme/card__theme.css');
 @import url('../blocks/card/__theme/_read-experience/theme_read-experience.css');
 @import url('../blocks/card/__title/card__title.css');

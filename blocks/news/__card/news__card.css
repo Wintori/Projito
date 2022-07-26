@@ -1,6 +1,7 @@
 .news__card {
-    width: 330px;
+    width: 328px;
     border-bottom: 4px solid #E7E4DE;
+    padding-right: 19px;
     height: 443px;
     margin: 0;
     padding: 0 20px 0 0;

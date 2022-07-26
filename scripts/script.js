@@ -1,12 +1,67 @@
+const buttonClose = document.querySelector ('.popup__button_close');
+const popup = document.querySelector('.popup');
+
+
+function closePopup(popupElement) {    //ФУНКЦИЯ ЗАКРЫТИЯ ПОПАПА
+    popupElement.classList.add('popup_closed');
+  }
+
+buttonClose.addEventListener('click', function (){    //Закрытие попапа на кнопку
+    closePopup(popup)
+});
+
+//-------------------------------------------------------------------------------
+
+const extraMenu = document.querySelector('.header__extra-menu'),
+      menuButtonAbout = document.querySelector('#header-menu-about'),
+      mobileMenu = document.querySelector('.header__mobile-menu'),
+      mobileMenuButton = document.querySelector('.header__menu-button');
+
+mobileMenuButton.addEventListener("click", function(){
+    if (mobileMenu.classList.contains('header__mobile-menu_active')) {
+       mobileMenu.classList.remove('header__mobile-menu_active');
+       mobileMenuButton.style = "background-image: url('../blocks/header/images/mobile-menu.svg')";
+    } else {
+        mobileMenu.classList.add('header__mobile-menu_active');
+        mobileMenuButton.style = "background-image: url('../blocks/header/images/сlose.svg')";
+    }
+});
+
+menuButtonAbout.onmouseover = function(e) {
+    extraMenu.classList.add('header__extra-menu_active');
+};
+
+extraMenu.addEventListener("mouseleave", function(e){
+    extraMenu.classList.remove('header__extra-menu_active');
+});
+//-------------------------------------------------------------------------------------
+let offsetSliderMaterials = 288;
+const lineMaterial = document.querySelector('.materials__cards');
+const sliderMaterialDots = document.querySelectorAll('.materials__slide');
+
+sliderMaterialDots.forEach((el, index) => {
+  el.addEventListener('click', () => {
+    if(sliderMaterialDots[0] === el) {
+      lineMaterial.style.left = '0';
+    } else {
+      lineMaterial.style.left = `-${offsetSliderMaterials * index}px`;
+    }
+    sliderMaterialDots.forEach(el => {
+      if (el.childNodes[1].classList.contains('materials__slide-button_active')) {
+        el.childNodes[1].classList.remove('materials__slide-button_active');
+      }
+    });
+    el.childNodes[1].classList.add('materials__slide-button_active');
+  });
+});
+
+
+//----------------------------------------------------------------------------------------------------------
+
 let offset = 0;
 const sliderLine = document.querySelector('.news__list'); // слайдер News
 let sliderCount = sliderLine.childElementCount; // кол-во карточек в слайдере
 const windowInnerWidth = document.documentElement.clientWidth // Считываем размер экрана
-
-
-const cardSizeWindow = 330;
-const cardSizeTablet = 200;
-let sliderLenght = 0;
 
 if (windowInnerWidth > 768) {
      sliderLenght = sliderCount * cardSizeWindow;
@@ -49,6 +104,4 @@ document.querySelector('.button-previous').addEventListener('click', function ()
     }
     sliderLine.style.left = -offset + 'px';
 });
-
-
 setSliderSize(sliderLine);

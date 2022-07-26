@@ -1,15 +1,9 @@
 .poster-type__title {
     padding: 0;
-    margin: 0 auto 0 20px;
+    margin: 0;
     font-weight: 400;
     font-size: 46px;
     line-height: 120%;
-}
-
-@media screen and (max-width: 768px) {
-    .poster-type__title {
-        margin: 0 auto 0 12px;
-        font-size: 30px;
-        line-height: 37px;
-    }
+    margin-right: auto;
+    margin-left: 20px;
 }
