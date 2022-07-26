@@ -10,6 +10,7 @@
 
 @media screen and (max-width: 768px) {
     .poster__title {
+        margin: 16px 0 0 16px;
         font-size: 30px;
         line-height: 37px;
         max-width: 132px;

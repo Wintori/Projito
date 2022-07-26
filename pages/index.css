@@ -57,6 +57,7 @@
 @import url('../blocks/news/__cards/news__cards.css');
 @import url('../blocks/poster/poster.css');
 @import url('../blocks/poster/__title/poster__title.css');
+@import url('../blocks/poster/__title/_magazine/poster__title_magazine.css');
 @import url('../blocks/poster/__image/poster__image.css');
 @import url('../blocks/poster/__button/poster__button.css');
 @import url('../blocks/poster/__button/_text/poster__button_text.css');
