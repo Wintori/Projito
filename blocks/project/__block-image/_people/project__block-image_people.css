@@ -1,0 +1,13 @@
+.project__block-image_people {
+    background: url('../../../../images/people.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media screen and (max-width: 1100px) {
+    .project__block-image_people {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background: url('../../../../images/people2.png');
+    }
+}
