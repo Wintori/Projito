@@ -1,15 +1,12 @@
 .button-news {
-    border: 1px solid #FFFFFF;
-    min-height: 50px;
+    border-radius: 100px;
+    background-color: #A5CDAB;
     transition: opacity .2s linear;
-    border-radius: 8px;
-    color: white;
-    width: 329px;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 26px;
-    margin: 0 0 32px 32px;
-    align-self: start;
+    min-height: 50px;
+    min-width: 50px;
+    margin: 0 0 0 20px;
+    padding: 0;
+    align-self: center;
 }
 
 .button-news:hover {
@@ -18,7 +15,8 @@
 
 @media screen and (max-width: 768px) {
     .button-news {
-        display: none;
+        min-height: 32px;
+        min-width: 32px;
     }
 }
 
