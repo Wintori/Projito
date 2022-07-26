@@ -3,6 +3,12 @@
 @import url('../blocks/page/page.css');
 @import url('../blocks/content/content.css');
 
+@import url('../blocks/menu/menu.css');
+@import url('../blocks/menu/__link/menu__link.css');
+@import url('../blocks/menu/__link/_history/menu__link_history.css');
+@import url('../blocks/menu/__link/_home/menu__link_home.css');
+@import url('../blocks/menu/__link/_journal/menu__link_journal.css');
+@import url('../blocks/menu/__link/_news/menu__link_news.css');
 
 @import url('../blocks/journal/journal.css');
 @import url('../blocks/journal/__title/journal__title.css');
