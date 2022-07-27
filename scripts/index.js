@@ -22,7 +22,8 @@ sliderMaterialDots.forEach((el, index) => {
 
 //----------------------------------------------------------------------------------------------------------
 
-let offset = 0;
+let offsetNews = 0;
+let offsetMagazine = 0;
 const news = document.querySelector('.news');
 const sliderLineNews = news.querySelector('.news__list'); // слайдер News
 const magazine = document.querySelector('.magazine');
@@ -46,36 +47,69 @@ function setSliderSize(sliderLine) {
 }
 
 
-document.querySelector('.button-next').addEventListener('click', function () {
+news.querySelector('.button-next').addEventListener('click', function () {
     if (windowInnerWidth > 768){
-        offset = offset + 330;
+        offsetNews = offsetNews + 330;
 
 
-        if (offset > (sliderLenght - 330 * 3)) {
-            offset = 0;
+        if (offsetNews > (sliderLenght - 330 * 3)) {
+            offsetNews = 0;
         }
-        sliderLineNews.style.left = -offset + 'px';
-        sliderLineMagazine.style.left = -offset + 'px';
+        sliderLineNews.style.left = -offsetNews + 'px';
+        sliderLineMagazine.style.left = -offsetNews + 'px';
     }else if (windowInnerWidth <= 768 && windowInnerWidth > 360) {
-        offset = offset + 180;
+        offsetNews = offsetNews + 180;
 
 
-        if (offset > (sliderLenght - 180 * 3)) {
-            offset = 0;
+        if (offsetNews > (sliderLenght - 180 * 3)) {
+            offsetNews = 0;
         }
-        sliderLineNews.style.left = -offset + 'px';
-        sliderLineMagazine.style.left = -offset + 'px';
+        sliderLineNews.style.left = -offsetNews + 'px';
     }
 
 });
 
-document.querySelector('.button-previous').addEventListener('click', function () {
-    offset = offset - 330;
-    if (offset < 0) {
-        offset = sliderLenght - 330 * 3;
+news.querySelector('.button-previous').addEventListener('click', function () {
+    offsetNews = offsetNews - 330;
+    if (offsetNews < 0) {
+        offsetNews = sliderLenght - 330 * 3;
     }
-    sliderLineNews.style.left = -offset + 'px';
-    sliderLineMagazine.style.left = -offset + 'px';
+    sliderLineNews.style.left = -offsetNews + 'px';
 });
+
+
+
+magazine.querySelector('.button-next').addEventListener('click', function () {
+    if (windowInnerWidth > 768){
+        offsetMagazine = offsetMagazine + 330;
+
+
+        if (offsetMagazine > (sliderLenght - 330 * 3)) {
+            offsetMagazine = 0;
+        }
+        sliderLineNews.style.left = -offsetMagazine + 'px';
+        sliderLineMagazine.style.left = -offsetMagazine + 'px';
+    }else if (windowInnerWidth <= 768 && windowInnerWidth > 360) {
+        offsetMagazine = offsetMagazine + 180;
+
+
+        if (offsetMagazine > (sliderLenght - 180 * 3)) {
+            offsetMagazine = 0;
+        }
+        sliderLineMagazine.style.left = -offsetMagazine + 'px';
+    }
+
+});
+
+magazine.querySelector('.button-previous').addEventListener('click', function () {
+    offsetMagazine = offsetMagazine - 330;
+    if (offsetMagazine < 0) {
+        offsetMagazine = sliderLenght - 330 * 3;
+    }
+    sliderLineMagazine.style.left = -offsetMagazine + 'px';
+    console.log('click');
+});
+
+
 setSliderSize(sliderLineNews);
 setSliderSize(sliderLineMagazine);
