@@ -10,5 +10,6 @@
 @media screen and (max-width: 767px) {
     .header__main-menu {
         border-bottom: none;
+        padding-bottom: 10px;
     }
 }

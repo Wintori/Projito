@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Все новости</title>
+    <link rel="stylesheet" href="./pages/index.css">
+    <link rel="stylesheet" href="./pages/magazine.css">
+    <link rel="stylesheet" href="./pages/typical.css">
+    <link rel="stylesheet" href="./pages/news.css">
+    <link rel="stylesheet" href="./pages/main.css">
+
+</head>
+
+<body>
+<div class="page">
+
+    <header class="header">
+        <div class="header__main-menu">
+            <img src="./blocks/logo/images/projito-logo.svg" alt="логотип Прожито" class="logo">
+            <button class="header__menu-button"></button>
+            <ul class="header__menu-links">
+                <li class="header__menu-list"><a href="https://prozhito.org/page/archive" class="header__menu-link">Архив</a></li>
+                <li class="header__menu-list"><a href="https://prozhito.org/persons" class="header__menu-link">Корпус</a></li>
+                <li class="header__menu-list" id="header-menu-about"><a href="#" class="header__menu-link header__menu-link_active">О проекте</a></li>
+            </ul>
+        </div>
+        <div class="header__extra-menu">
+            <ul class="header__menu-links">
+                <li class="header__extra-menu-list"><a href="#" class="header__menu-link">О прожито</a></li>
+                <li class="header__extra-menu-list"><a href="#" class="header__menu-link">Как работать?</a></li>
+                <li class="header__extra-menu-list"><a href="#" class="header__menu-link">Медиа</a></li>
+                <li class="header__extra-menu-list"><a href="#" class="header__menu-link">Новости</a></li>
+                <li class="header__extra-menu-list"><a href="#" class="header__menu-link">Спецпроекты</a></li>
+            </ul>
+        </div>
+        <div class="header__mobile-menu">
+            <ul class="header__menu-links">
+                <li class="header__menu-list"><a href="https://prozhito.org/page/archive" class="header__menu-link">Архив</a></li>
+                <li class="header__menu-list"><a href="https://prozhito.org/persons" class="header__menu-link">Корпус</a></li>
+                <li class="header__menu-list"><a href="#" class="header__menu-link">О проекте</a></li>
+            </ul>
+            <ul class="header__menu-links">
+                <li class="header__extra-menu-list"><a href="#" class="header__menu-link">О прожито</a></li>
+                <li class="header__extra-menu-list"><a href="#" class="header__menu-link">Как работать?</a></li>
+                <li class="header__extra-menu-list"><a href="#" class="header__menu-link">Медиа</a></li>
+            </ul>
+            <ul class="header__menu-links">
+                <li class="header__extra-menu-list"><a href="#" class="header__menu-link">Новости</a></li>
+                <li class="header__extra-menu-list"><a href="#" class="header__menu-link">Спецпроекты</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <nav class="menu">
+        <ul>
+            <li><a href="./index.html" class="menu__link menu__link_home">Главная страница</a></li>
+            <li><a href="./news.html" class="menu__link menu__link_news"> / Все новости</a></li>
+        </ul>
+    </nav>
+
+    <main class="content">
+
+        <section class="allNews">
+
+            <h2 class="allNews__title">Новости</h2>
+
+            <ul class="allNews__list">
+                <li class="news__card news__card_allNews">
+                    <div class="news__card-information">
+                        <div>
+                            <p class="news__card_date">
+                                21.01.2022
+                            </p>
+                            <p class="news__card_type">
+                                Спецпроект
+                            </p>
+                        </div>
+                        <img src="./images/blockade.png" class="news__card_image" alt="Книга">
+                    </div>
+                    <p class="news__card-description news__card-description_allNews">
+                        В издательстве Европейского университета в Санкт-Петербурге вышла первая книга из серии
+                        «Библиотека Прожито. Блокада»
+                    </p>
+                </li>
+
+                <li class="news__card news__card_allNews">
+                    <div class="news__card-information">
+                        <div>
+                            <p class="news__card_date">
+                                13.05.2022
+                            </p>
+                        </div>
+                        <img src="./images/alboms.png" class="news__card_image" alt="Альбом">
+                    </div>
+                    <p class="news__card-description news__card-description_allNews">
+                        Центр изучения эго-документов «Прожито» проведёт исследовательскую лабораторию, посвящённую работе с дембельскими альбомами
+                    </p>
+                </li>
+
+                <li class="news__card news__card_allNews">
+                    <div class="news__card-information">
+                        <div>
+                            <p class="news__card_date">
+                                25.05.2021
+                            </p>
+                            <p class="news__card_type">
+                                Лекция
+                            </p>
+                        </div>
+                        <img src="./images/notebook.png" class="news__card_image" alt="Книга">
+                    </div>
+                    <p class="news__card-description news__card-description_allNews">
+                        4 октября на фестивале «Тверской переплёт» выступит Михаил Мельниченко — историк, директор Центра «Прожито» ЕУСПб
+                    </p>
+                </li>
+
+                <li class="news__card news__card_allNews">
+                    <div class="news__card-information">
+                        <div>
+                            <p class="news__card_date">
+                                13.05.2022
+                            </p>
+                        </div>
+                        <img src="./images/alboms.png" class="news__card_image" alt="Альбом">
+                    </div>
+                    <p class="news__card-description news__card-description_allNews">
+                        Центр изучения эго-документов «Прожито» проведёт исследовательскую лабораторию, посвящённую работе с дембельскими альбомами
+                    </p>
+                </li>
+
+                <li class="news__card news__card_allNews">
+                    <div class="news__card-information">
+                        <div>
+                            <p class="news__card_date">
+                                21.01.2022
+                            </p>
+                            <p class="news__card_type">
+                                Спецпроект
+                            </p>
+                        </div>
+                        <img src="./images/blockade.png" class="news__card_image" alt="Книга">
+                    </div>
+                    <p class="news__card-description news__card-description_allNews">
+                        В издательстве Европейского университета в Санкт-Петербурге вышла первая книга из серии
+                        «Библиотека Прожито. Блокада»
+                    </p>
+                </li>
+
+                <li class="news__card news__card_allNews">
+                    <div class="news__card-information">
+                        <div>
+                            <p class="news__card_date">
+                                25.05.2021
+                            </p>
+                            <p class="news__card_type">
+                                Лекция
+                            </p>
+                        </div>
+                        <img src="./images/notebook.png" class="news__card_image" alt="Книга">
+                    </div>
+                    <p class="news__card-description news__card-description_allNews">
+                        4 октября на фестивале «Тверской переплёт» выступит Михаил Мельниченко — историк, директор Центра «Прожито» ЕУСПб
+                    </p>
+                </li>
+
+                <li class="news__card news__card_allNews">
+                    <div class="news__card-information">
+                        <div>
+                            <p class="news__card_date">
+                                25.05.2021
+                            </p>
+                            <p class="news__card_type">
+                                Лекция
+                            </p>
+                        </div>
+                        <img src="./images/notebook.png" class="news__card_image" alt="Книга">
+                    </div>
+                    <p class="news__card-description news__card-description_allNews">
+                        4 октября на фестивале «Тверской переплёт» выступит Михаил Мельниченко — историк, директор Центра «Прожито» ЕУСПб
+                    </p>
+                </li>
+
+                <li class="news__card news__card_allNews">
+                    <div class="news__card-information">
+                        <div>
+                            <p class="news__card_date">
+                                21.01.2022
+                            </p>
+                            <p class="news__card_type">
+                                Спецпроект
+                            </p>
+                        </div>
+                        <img src="./images/blockade.png" class="news__card_image" alt="Книга">
+                    </div>
+                    <p class="news__card-description news__card-description_allNews">
+                        В издательстве Европейского университета в Санкт-Петербурге вышла первая книга из серии
+                        «Библиотека Прожито. Блокада»
+                    </p>
+                </li>
+
+                <li class="news__card news__card_allNews">
+                    <div class="news__card-information">
+                        <div>
+                            <p class="news__card_date">
+                                25.05.2021
+                            </p>
+                            <p class="news__card_type">
+                                Лекция
+                            </p>
+                        </div>
+                        <img src="./images/notebook.png" class="news__card_image" alt="Книга">
+                    </div>
+                    <p class="news__card-description news__card-description_allNews">
+                        4 октября на фестивале «Тверской переплёт» выступит Михаил Мельниченко — историк, директор Центра «Прожито» ЕУСПб
+                    </p>
+                </li>
+
+            </ul>
+
+        </section>
+
+        <section class="pages">
+            <img class="pages__arrow" src="./images/Mag-arrow-left.svg" alt="Иконка стрелки">
+            <div class="pages__numbers">
+                <p class="pages__number">1</p>
+                <p class="pages__number">2</p>
+                <p class="pages__number">...</p>
+                <p class="pages__number">5</p>
+            </div>
+            <img class="pages__arrow" src="./images/Mag-arrow-right.svg" alt="Иконка стрелки">
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer__menu">
+            <ul class="footer__menu-links">
+                <li class="footer__menu-list"><a href="#" class="footer__menu-link">О команде</a></li>
+                <li class="footer__menu-list"><a href="#" class="footer__menu-link">Благодарности</a></li>
+                <li class="footer__menu-list"><a href="#" class="footer__menu-link">Партнёры</a></li>
+                <li class="footer__menu-list"><a href="#" class="footer__menu-link">FAQ</a></li>
+                <li class="footer__menu-list"><a href="#" class="footer__menu-link">Инструкции</a></li>
+            </ul>
+        </div>
+        <div class="footer__social">
+            <div class="footer__social-container">
+                <img src="./blocks/logo/images/projito-logo.svg" alt="логотип Прожито" class="logo">
+                <div class="footer__social-links">
+                    <a href="https://t.me/prozhito" class="footer__social-link"><img src="./blocks/footer/images/telegram.svg" alt="Телеграм" class="footer__social-link-logo">  Телеграм</a>
+                    <a href="https://vk.com/prozhito" class="footer__social-link"><img src="./blocks/footer/images/vk.svg" alt="Вконтакте" class="footer__social-link-logo">  Вконтакте</a>
+                </div>
+                <div class="footer__social-links_mobile">
+                    <a href="https://t.me/prozhito" class="footer__social-link"><img src="./blocks/footer/images/telegram.svg" alt="Телеграм" class="footer__social-link-logo"></a>
+                    <a href="https://vk.com/prozhito" class="footer__social-link"><img src="./blocks/footer/images/vk.svg" alt="Вконтакте" class="footer__social-link-logo"></a>
+                </div>
+            </div>
+            <div class="footer__info">
+                <a href="#" class="footer__social-link">Юридическая информация</a>
+                <a href="#" class="footer__social-link">Политика конфиденциальности</a>
+            </div>
+        </div>
+    </footer>
+</div>
+
+<script src="./scripts/news.js"></script>
+<script src="./scripts/main.js"></script>
+</body>
+</html>

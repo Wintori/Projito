@@ -4,6 +4,15 @@
     height: 680px;
 }
 
+@media screen and (max-width: 768px) {
+
+    .magazine {
+        height: 380px;
+        margin: 0 0 32px 0;
+    }
+
+}
+
 @media screen and (max-width: 360px) {
 
     .magazine {

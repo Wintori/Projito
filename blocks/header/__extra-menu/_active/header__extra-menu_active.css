@@ -1,0 +1,12 @@
+.header__extra-menu_active {
+    display: flex !important;
+    position: absolute;
+    right: 20px;
+    top: 50px;
+}
+
+@media screen and (max-width: 767px) {
+    .header__extra-menu_active {
+        display: none !important;
+    }
+}

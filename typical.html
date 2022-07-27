@@ -10,15 +10,48 @@
 
 <body>
 <div class="page">
+  <header class="header header_secondary">
+    <div class="header__main-menu">
+        <img src="./blocks/logo/images/projito-logo.svg" alt="логотип Прожито" class="logo">
+        <button class="header__menu-button"></button>
+        <ul class="header__menu-links">
+            <li class="header__menu-list"><a href="https://prozhito.org/page/archive" class="header__menu-link">Архив</a></li>
+            <li class="header__menu-list"><a href="https://prozhito.org/persons" class="header__menu-link">Корпус</a></li>
+            <li class="header__menu-list" id="header-menu-about"><a href="#" class="header__menu-link header__menu-link_active">О проекте</a></li>
+        </ul>
+    </div>
+    <div class="header__extra-menu">
+        <ul class="header__menu-links">
+            <li class="header__extra-menu-list"><a href="#" class="header__menu-link">О прожито</a></li>
+            <li class="header__extra-menu-list"><a href="#" class="header__menu-link">Как работать?</a></li>
+            <li class="header__extra-menu-list"><a href="#" class="header__menu-link">Медиа</a></li>
+            <li class="header__extra-menu-list"><a href="./news.html" class="header__menu-link">Новости</a></li>
+            <li class="header__extra-menu-list"><a href="#" class="header__menu-link">Спецпроекты</a></li>
+        </ul>
+    </div>
+    <div class="header__mobile-menu">
+        <ul class="header__menu-links">
+            <li class="header__menu-list"><a href="https://prozhito.org/page/archive" class="header__menu-link">Архив</a></li>
+            <li class="header__menu-list"><a href="https://prozhito.org/persons" class="header__menu-link">Корпус</a></li>
+            <li class="header__menu-list"><a href="#" class="header__menu-link">О проекте</a></li>
+        </ul>
+        <ul class="header__menu-links">
+            <li class="header__extra-menu-list"><a href="#" class="header__menu-link">О прожито</a></li>
+            <li class="header__extra-menu-list"><a href="#" class="header__menu-link">Как работать?</a></li>
+            <li class="header__extra-menu-list"><a href="#" class="header__menu-link">Медиа</a></li>
+        </ul>
+        <ul class="header__menu-links">
+            <li class="header__extra-menu-list"><a href="./news.html" class="header__menu-link">Новости</a></li>
+            <li class="header__extra-menu-list"><a href="#" class="header__menu-link">Спецпроекты</a></li>
+        </ul>
+    </div>
+</header>
 
-    <header class="header">
-    </header>
-    
     <nav class="menu">
       <ul>
-          <li><a href="#" class="menu__link menu__link_home">Главная страница</a></li>
-          <li><a href="#" class="menu__link menu__link_journal"> / «Журнал «Прожито»</a></li>
-          <li><a href="#" class="menu__link menu__link_history"> / Опыт прочтения одного дневника</a></li>
+          <li><a href="./index.html" class="menu__link menu__link_home">Главная страница</a></li>
+          <li><a href="./magazine.html" class="menu__link menu__link_journal"> / «Журнал «Прожито»</a></li>
+          <li><a href="./typical.html" class="menu__link menu__link_history"> / Опыт прочтения одного дневника</a></li>
       </ul>
     </nav>
 
@@ -32,7 +65,7 @@
             <a href="#">Опыт читателя</a>
           </li>
         </ul>
-
+        <p class ="chapter">оглавление</p>
         <h1>Опыт прочтения одного дневника</h1>
         <h2>Часть один</h2>
         <p>В детстве я любила слушать радио. Проводное у нас почему-то не работало, но была радиола, которая пластинки уже не
@@ -62,7 +95,7 @@
           место на полке архива.</p>
 
         <figure class="image">
-          <img src="../images/typical-page-photo-yura-benevolsky-diary.jpg" alt="Фото из дневника Юры Беневольского" />
+          <img src="./images/typical-page-photo-yura-benevolsky-diary.jpg" alt="Фото из дневника Юры Беневольского" />
           <figcaption>
             Фото из дневника Юры Беневольского. Балашов. Лето 1938 г.
           </figcaption>
@@ -75,7 +108,7 @@
           благодаря этим снимкам мы видим их домашнюю елку, маму за шитьем, Юриного друга, ледоход на Неве. Есть и
           профессиональные фотокарточки: одноклассники, артистки кино, сам Юра.</p>
 
-        <video poster="../images/typical-page-poster-video.jpg">
+        <video poster="./images/typical-page-poster-video.jpg">
           Your browser does not support the video tag.
         </video>
 
@@ -97,7 +130,7 @@
           <button id="play-icon"></button>
           <button id="back-icon"></button>
           <button id="forward-icon"></button>
-          <img src="../images/audio-story.svg" alt="Звуковая дорожка"/>
+          <img src="./images/audio-story.svg" alt="Звуковая дорожка"/>
           <span id="duration" class="time">15:20</span>
           <button id="volume-icon"></button>
         </div>
@@ -119,7 +152,7 @@
         <figure class="gallery">
           <div class="content">
             <figure class="image">
-              <img src="../images/typical-page-slider-diary-drawings.jpg" alt="Рисунки из дневника Вени Аронвальда" />
+              <img src="./images/typical-page-slider-diary-drawings.jpg" alt="Рисунки из дневника Вени Аронвальда" />
               <figcaption>
                 Рисунки из дневника Вени Аронвальда, 1937 год
               </figcaption>
@@ -154,18 +187,50 @@
           шалопаю из 5-го класса. 1 час – 4 руб. Мама начинает относится ко мне как к юноше, а не ребенку старшего возраста. Я
           теперь довольно свободно могу уйти из дому в любое время».
         </p>
+
+        <div class="popup">
+          <h2 class="popup__title">Это верно</h2>
+          <p class="popup__subtitle">Информация достоверна</p>
+        <button class="popup__button_close" type="button"></button>
+      </div>
+
       </section>
     </main>
 
     <footer class="footer">
-    </footer>
+      <div class="footer__menu">
+          <ul class="footer__menu-links">
+              <li class="footer__menu-list"><a href="#" class="footer__menu-link">О команде</a></li>
+              <li class="footer__menu-list"><a href="#" class="footer__menu-link">Благодарности</a></li>
+              <li class="footer__menu-list"><a href="#" class="footer__menu-link">Партнёры</a></li>
+              <li class="footer__menu-list"><a href="#" class="footer__menu-link">FAQ</a></li>
+              <li class="footer__menu-list"><a href="#" class="footer__menu-link">Инструкции</a></li>
+          </ul>
+      </div>
+      <div class="footer__social">
+          <div class="footer__social-container">
+              <img src="./blocks/logo/images/projito-logo.svg" alt="логотип Прожито" class="logo">
+              <div class="footer__social-links">
+                  <a href="https://t.me/prozhito" class="footer__social-link"><img src="./blocks/footer/images/telegram.svg" alt="Телеграм" class="footer__social-link-logo">  Телеграм</a>
+                  <a href="https://vk.com/prozhito" class="footer__social-link"><img src="./blocks/footer/images/vk.svg" alt="Вконтакте" class="footer__social-link-logo">  Вконтакте</a>
+              </div>
+              <div class="footer__social-links_mobile">
+                  <a href="https://t.me/prozhito" class="footer__social-link"><img src="./blocks/footer/images/telegram.svg" alt="Телеграм" class="footer__social-link-logo"></a>
+                  <a href="https://vk.com/prozhito" class="footer__social-link"><img src="./blocks/footer/images/vk.svg" alt="Вконтакте" class="footer__social-link-logo"></a>
+              </div>
+          </div>
+          <div class="footer__info">
+              <a href="#" class="footer__social-link">Юридическая информация</a>
+              <a href="#" class="footer__social-link">Политика конфиденциальности</a>
+          </div>
+      </div>
+  </footer>
 
     <section class="popup">
     </section>
 
 </div>
-
-    <script src="./scripts/typical.js"></script>
-
+  <script src="./scripts/main.js"></script>
+  <script src="./scripts/typical.js"></script>
 </body>
 </html>

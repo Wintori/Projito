@@ -1,7 +1,7 @@
 .header__extra-menu {
     margin: 12px auto 0;
     width: 100%;
-    display: flex;
+    display: none;
     justify-content: flex-end;
     align-items: center;
 }
