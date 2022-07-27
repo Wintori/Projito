@@ -9,9 +9,16 @@
     width: 1920px;
 }
 
+.news__list > .card:not(:last-child) {
+  margin-right: 20px;
+}
+
 @media screen and (max-width: 768px) {
     .news__list {
         margin: 0 0 0 12px;
+    }
+    .news__list > .card:not(:last-child) {
+      margin-right: 12px;
     }
 }
 
