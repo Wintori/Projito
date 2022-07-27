@@ -10,6 +10,8 @@
 
 <body>
 <div class="page">
+
+  <p class ="chapter">оглавление</p>
   <header class="header header_secondary">
     <div class="header__main-menu">
         <a href="./index.html"><img src="./images/projito-logo.svg" alt="логотип Прожито" class="logo"></a>
@@ -45,17 +47,20 @@
             <li class="header__extra-menu-list"><a href="#" class="header__menu-link">Спецпроекты</a></li>
         </ul>
     </div>
-</header>
+  </header>
 
-    <nav class="menu">
-      <ul>
-          <li><a href="./index.html" class="menu__link menu__link_home">Главная страница</a></li>
-          <li><a href="./magazine.html" class="menu__link menu__link_journal"> / «Журнал «Прожито»</a></li>
-          <li><a href="./typical.html" class="menu__link menu__link_history"> / Опыт прочтения одного дневника</a></li>
-      </ul>
-    </nav>
+    
 
     <main class="content">
+      
+      <nav class="menu">
+        <ul>
+            <li><a href="./index.html" class="menu__link menu__link_home">Главная страница</a></li>
+            <li><a href="./magazine.html" class="menu__link menu__link_journal"> / «Журнал «Прожито»</a></li>
+            <li><a href="./typical.html" class="menu__link menu__link_history"> / Опыт прочтения одного дневника</a></li>
+        </ul>
+      </nav>
+      
       <section class="article">
         <ul class="tags-list">
           <li class="tags-list__item">
@@ -65,10 +70,10 @@
             <a href="#">Опыт читателя</a>
           </li>
         </ul>
-        <p class ="chapter">оглавление</p>
+        
         <h1>Опыт прочтения одного дневника</h1>
         <h2>Часть один</h2>
-        <p>В детстве я любила слушать радио. Проводное у нас почему-то не работало, но была радиола, которая пластинки уже не
+        <p>  В детстве я любила слушать радио. Проводное у нас почему-то не работало, но была радиола, которая пластинки уже не
           проигрывала, зато ловила 3-ю программу. Ту самую, где новостей не было совсем, а передачи повторялись неисчислимое
           количество раз. Приходишь из школы, дома — никого, в Петропавловске-Камчатском полночь, а по радио идёт «Театр у
           микрофона». Все спектакли я знала почти наизусть: классические постановки МХАТа и Малого, авангардного «Мартина
@@ -81,6 +86,7 @@
           страницей, мы узнавали этого человек: старший таксатор Далматовского лесничества, бывший офицер эстонской армии,
           строгий глава семьи Клавдий Васильевич Попов. Так я стала волонтёром, который помогает расшифровывать рукописные
           дневники.</p>
+          
         <blockquote>Дневник, о котором дальше пойдет речь, вел сначала подросток, потом юноша, который дал себе слово честно
           записывать все, что с ним происходило.
         </blockquote>
@@ -188,12 +194,6 @@
           теперь довольно свободно могу уйти из дому в любое время».
         </p>
 
-        <div class="popup">
-          <h2 class="popup__title">Это верно</h2>
-          <p class="popup__subtitle">Информация достоверна</p>
-        <button class="popup__button_close" type="button"></button>
-      </div>
-
       </section>
     </main>
 
@@ -226,9 +226,12 @@
       </div>
   </footer>
 
-    <section class="popup">
-    </section>
-
+  <div class="popup popup_typical">
+    <h2 class="popup__title popup__title_typical">Это верно</h2>
+    <p class="popup__subtitle popup__subtitle_typical">Информация достоверна</p>
+    <button class="popup__button_close popup__button_close_typical" type="button"></button>
+  </div>
+  
 </div>
   <script src="./scripts/main.js"></script>
   <script src="./scripts/typical.js"></script>
