@@ -8,7 +8,7 @@
 }
 
 @font-face {
-  font-family: 'PT';
+  font-family: 'PT', 'Arial', sans-serif;
   font-style: normal;
   src: url('./fonts/PT-Sans/PTSans-Regular.woff2') format("woff2"),
   url('./fonts/PT-Sans/PTSans-Regular.ttf') format("ttf");

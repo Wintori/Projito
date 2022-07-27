@@ -22,5 +22,6 @@
         width: 11.24px;
         height: 11.43px;
         left: -13.44px;
+        z-index: 2;
     }
 }
