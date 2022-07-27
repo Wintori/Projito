@@ -26,8 +26,4 @@
         padding: 0;
         margin: 0 auto 16px auto;
     }
-
-    .news__card:last-of-type {
-        margin: 0 auto 32px auto;
-    }
 }
