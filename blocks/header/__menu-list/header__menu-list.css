@@ -1,10 +1,10 @@
 .header__menu-list {
     text-decoration: none;
-    margin-right: 40px;
+    margin-right: 60px;
 }
 
 .header__menu-list:last-child {
-    margin-right: 0px;
+    margin-right: 10px;
 }
 
 @media screen and (max-width: 767px) {
