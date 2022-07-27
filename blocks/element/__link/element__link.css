@@ -15,7 +15,7 @@
     }
 }
 
-@media screen and (max-width: 336px) {
+@media screen and (max-width: 370px) {
     .element__link {
         font-size: 12px;
     }
