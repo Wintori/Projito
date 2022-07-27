@@ -15,7 +15,7 @@
     }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 425px) {
     .news__card_image {
         width: 100%;
         height: 160px;

@@ -5,7 +5,7 @@
     padding: 0;
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 425px) {
     .news__card-information {
         flex-direction: row;
         margin: 8px 0 0 0;

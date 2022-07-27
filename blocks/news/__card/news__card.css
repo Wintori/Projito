@@ -16,8 +16,9 @@
     }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 425px) {
     .news__card {
+        max-width: 336px;
         width: calc(100vw - 24px);
         height: auto;
         border: none;
