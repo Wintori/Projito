@@ -1,4 +1,9 @@
 .allNews {
-    width: calc(100% - 294px);
     margin: 0 auto 40px;
+}
+
+@media screen and (max-width: 425px) {
+    .allNews {
+        display: none;
+    }
 }
