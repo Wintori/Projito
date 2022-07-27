@@ -1,7 +1,14 @@
 .menu  {
     display: flex;
     background:  #FFFFFF;
+    max-width: 1440px;
+    margin: 0 auto;
+}
 
+@media screen and (max-width: 768px) {
+    .menu {
+
+    }
 }
 
 .menu ul {
@@ -12,6 +19,7 @@
     padding-left: 20px;
     padding-bottom: 47px;
 }
+
 
 @media screen and(max-width: 768px){
     .menu ul {
