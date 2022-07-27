@@ -10,12 +10,7 @@
 
 @media screen and (max-width: 768px) {
     .element__paragraph {
-        font-size: 12px;
-    }
-}
-
-@media screen and (max-width: 336px) {
-    .element__paragraph {
         font-size: 14px;
     }
 }
+

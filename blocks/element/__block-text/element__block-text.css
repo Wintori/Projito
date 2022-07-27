@@ -5,3 +5,15 @@
     max-width: 498.17px;
     margin-bottom: 36px;
 }
+
+@media screen and (max-width: 768px) {
+    .element__block-text {
+        margin-bottom: 28px;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .element__block-text {
+        margin-bottom: 12px
+    }
+}
