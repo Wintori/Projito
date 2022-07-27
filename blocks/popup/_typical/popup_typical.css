@@ -1,0 +1,37 @@
+.popup_typical {
+    width: 329px;
+    height: 93px;
+    background-color: rgba(247, 244, 240, 1);
+    position: absolute;
+    top: 880px;
+    right: 32px; 
+    border-radius: 8px;
+  }
+
+  .popup_typical:hover {
+    background-color: rgba(247, 244, 240, 1);
+}
+
+@media (max-width: 700px) {
+  .popup_typical {
+    top: 1000px;
+  }
+}
+
+@media (max-width: 550px) {
+  .popup_typical {
+    top: 1200px;
+  }
+}
+
+@media (max-width: 800px) {
+  .popup_typical {
+      max-height: 77px;
+  }
+}
+
+  @media (max-width: 450px) {
+    .popup_typical {
+        display: none;
+    }
+}   
