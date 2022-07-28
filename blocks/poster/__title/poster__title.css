@@ -8,7 +8,7 @@
     max-width: 260px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
     .poster__title {
         margin: 16px 0 0 16px;
         font-size: 30px;

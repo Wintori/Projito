@@ -7,6 +7,6 @@
 
 @media screen and (max-width: 768px) {
     .poster__button {
-        margin: 0 20px 41px 0;
+        margin: 0 20px 41px 20px;
     }
 }
