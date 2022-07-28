@@ -4,7 +4,7 @@
     align-items: flex-start;
 }
 
-@media screen and (max-width: 1399px) {
+@media screen and (max-width: 1124px) {
     .footer__social {
         flex-direction: column;
     }
