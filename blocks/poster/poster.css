@@ -6,7 +6,7 @@
     width: 477px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
     .poster {
         width: 253px;
     }
