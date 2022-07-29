@@ -1,4 +1,4 @@
-const buttonClose = document.querySelector('.popup__button_close');
+const buttonClose = document.querySelector('.popup__button-close');
 const popup = document.querySelector('.popup');
 
 const extraMenu = document.querySelector('.header__extra-menu');

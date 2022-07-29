@@ -10,9 +10,9 @@
 @import url('../blocks/menu/__link/_home/menu__link_home.css');
 @import url('../blocks/menu/__link/_journal/menu__link_journal.css');
 @import url('../blocks/menu/__link/_news/menu__link_news.css');
-@import url('../blocks/allNews/allNews.css');
-@import url('../blocks/allNews/__mobile/allNews__mobile.css');
-@import url('../blocks/allNews/__title/allNews__title.css');
-@import url('../blocks/allNews/__list/allNews__list.css');
-@import url('../blocks/news/__card/_allNews/news__card_allNews.css');
-@import url('../blocks/news/__card-description/_allNews/news__card-description_allNews.css');
+@import url('../blocks/all-news/all-news.css');
+@import url('../blocks/all-news/__mobile/all-news__mobile.css');
+@import url('../blocks/all-news/__title/all-news__title.css');
+@import url('../blocks/all-news/__list/all-news__list.css');
+@import url('../blocks/news/__card/_all-news/news__card_all-news.css');
+@import url('../blocks/news/__card-description/_all-news/news__card-description_all-news.css');
