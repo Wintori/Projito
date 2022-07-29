@@ -107,7 +107,6 @@ magazine.querySelector('.button-previous').addEventListener('click', function ()
         offsetMagazine = sliderLenght - 330 * 3;
     }
     sliderLineMagazine.style.left = -offsetMagazine + 'px';
-    console.log('click');
 });
 
 
