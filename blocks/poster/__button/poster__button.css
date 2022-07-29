@@ -3,10 +3,12 @@
     padding: 0;
     display: flex;
     align-self: end;
+    width: 226px;
 }
 
 @media screen and (max-width: 768px) {
     .poster__button {
         margin: 0 20px 41px 20px;
+        width: 161px;
     }
 }
