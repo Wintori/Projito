@@ -7,3 +7,11 @@
     margin-right: auto;
     margin-left: 20px;
 }
+
+@media screen and (max-width: 800px) {
+    .poster-type__title {
+        font-size: 30px;
+        line-height: 37px;
+    }
+
+}

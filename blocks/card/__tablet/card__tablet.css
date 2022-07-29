@@ -1,0 +1,5 @@
+@media (max-width: 800px) {
+    .card__tablet {
+        width: 180px;
+    }
+}
