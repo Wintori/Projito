@@ -2,7 +2,7 @@
     display: none;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 470px) {
     .magazine-mobile {
         display: flex;
         flex-direction: column;
