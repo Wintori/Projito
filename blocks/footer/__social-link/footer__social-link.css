@@ -13,11 +13,6 @@
 }
 
 @media screen and (max-width: 1399px) {
-    .footer__social-link {
-        font-size: 14px;
-        line-height: 18px;
-    }
-
     .footer__social-links_mobile .footer__social-link:first-child {
         margin-bottom: 0;
         margin-right: 24px;
@@ -27,3 +22,11 @@
         margin-bottom: 8px;
     }
 }
+
+@media screen and (max-width: 1200px) {
+    .footer__social-link {
+        font-size: 14px;
+        line-height: 18px;
+    }
+}
+

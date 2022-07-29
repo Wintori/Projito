@@ -1,5 +1,3 @@
-@import 'swiper/css';
-
 @import url('../vendor/normalize.css');
 @import url('../vendor/fonts.css');
 @import url('../pages/main.css');
@@ -42,27 +40,27 @@
 @import url('../blocks/page/page.css');
 @import url('../blocks/content/content.css');
 @import url('../blocks/news/news.css');
-@import url('../blocks/news/__mobile/news__mobile.css');
-@import url('../blocks/news/__cards/news__cards.css');
+@import url('../blocks/news/_mobile/news_mobile.css');
+@import url('../blocks/news-cards/news-cards.css');
 @import url('../blocks/poster/poster.css');
-@import url('../blocks/poster/__title/poster__title.css');
-@import url('../blocks/poster/__title/_magazine/poster__title_magazine.css');
-@import url('../blocks/poster/__image/poster__image.css');
+@import url('../blocks/poster-title/poster-title.css');
+@import url('../blocks/poster-title/_magazine/poster-title_magazine.css');
+@import url('../blocks/poster-image/poster-image.css');
 @import url('../blocks/poster/__button/poster__button.css');
-@import url('../blocks/poster/__button/_text/poster__button_text.css');
+@import url('../blocks/poster/__button-text/poster__button-text.css');
 @import url('../blocks/poster-type/poster-type.css');
 @import url('../blocks/poster-type/__title/poster-type__title.css');
-@import url('../blocks/news/__list/news__list.css');
+@import url('../blocks/news-list/news-list.css');
 @import url('../blocks/news/__card/news__card.css');
 @import url('../blocks/news/__card-information/news__card-information.css');
-@import url('../blocks/news/__card/_date/news__card_date.css');
-@import url('../blocks/news/__card/_image/news__card_image.css');
-@import url('../blocks/news/__card/_type/news__card_type.css');
+@import url('../blocks/news/__card-date/news__card-date.css');
+@import url('../blocks/news/__card-image/news__card-image.css');
+@import url('../blocks/news/__card-type/news__card-type.css');
 @import url('../blocks/news/__card-description/news__card-description.css');
 @import url('../blocks/news/__card/_active/news__card_active.css');
+
 @import url('../blocks/magazine/magazine.css');
 @import url('../blocks/magazine-mobile/magazine-mobile.css');
-
 
 @import url('../blocks/element/__block-more/element__block-more.css');
 @import url('../blocks/element/__block-text/element__block-text.css');
@@ -88,49 +86,57 @@
 @import url('../blocks/project/project.css');
 @import url('../blocks/project/__button-arrow/project__button-arrow.css');
 
-
 @import url('../blocks/popup/popup.css');
 @import url('../blocks/popup/__title/popup__title.css');
 @import url('../blocks/popup/__subtitle/popup__subtitle.css');
 @import url('../blocks/popup/__link/popup__link.css');
-@import url('../blocks/popup/__button_close/popup__button_close.css');
+@import url('../blocks/popup/__button-close/popup__button-close.css');
 @import url('../blocks/popup/__closed/popup_closed.css');
 
 @import url('../blocks/cards/cards.css');
+
 @import url('../blocks/card/card.css');
 @import url('../blocks/card/__content/card__content.css');
-@import url('../blocks/card/__theme/card__theme.css');
-@import url('../blocks/card/__theme/_read-experience/theme_read-experience.css');
-@import url('../blocks/card/__title/card__title.css');
-@import url('../blocks/card/__title/_read-experience/title_read-experience.css');
+@import url('../blocks/card/__description/card__description.css');
 @import url('../blocks/card/__image/card__image.css');
 @import url('../blocks/card/__subtitle/card__subtitle.css');
-@import url('../blocks/card/__subtitle/_read-experience/subtitle_read-experience.css');
+
+@import url('../blocks/card/__theme/card__theme.css');
+@import url('../blocks/card/__theme/_read-experience/card__theme_read-experience.css');
+@import url('../blocks/card/__title/card__title.css');
+
+@import url('../blocks/card/_mobile-first/card_mobile-first.css');
+@import url('../blocks/card/_mobile-second/card_mobile-second.css');
+@import url('../blocks/card/_mobile-third/card_mobile-third.css');
+@import url('../blocks/title-read-experience/title_read-experience.css');
+@import url('../blocks/card/__image/card__image.css');
+@import url('../blocks/card/__subtitle/card__subtitle.css');
+@import url('../blocks/subtitle-read-experience/subtitle_read-experience.css');
 @import url('../blocks/card/__description/card__description.css');
+
 @import url('../blocks/card/_read-experience/card_read-experience.css');
-@import url('../blocks/card/_theme-collection/card_theme-collection.css');
 @import url('../blocks/card/_specproject/card_specproject.css');
+@import url('../blocks/card/_theme-collection/card_theme-collection.css');
+@import url('../blocks/card/__tablet/card__tablet.css');
+
 .swiper {
     max-width: 1024px;
-height: 390px;
+    height: 390px;
 }
+
 @media screen and(max-width: 768px) {
     .swiper {
         max-width: 580px;
 
     }
 }
+
 .swiper-slide {
     margin-right: 20px;
-    width:auto!important
+    width: auto !important
 }
 
 @media screen and(max-width: 768px) {
     .swiper-slide {
     }
 }
-
-
-
-
-

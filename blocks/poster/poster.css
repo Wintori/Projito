@@ -4,9 +4,10 @@
     justify-content: space-between;
     background-color: #323232;
     width: 477px;
+    flex-shrink: 0;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
     .poster {
         width: 253px;
     }
