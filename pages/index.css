@@ -53,9 +53,9 @@
 @import url('../blocks/news-list/news-list.css');
 @import url('../blocks/news/__card/news__card.css');
 @import url('../blocks/news/__card-information/news__card-information.css');
-@import url('../blocks/news/__card-date/news__card_date.css');
-@import url('../blocks/news/__card-image/news__card_image.css');
-@import url('../blocks/news/__card-type/news__card_type.css');
+@import url('../blocks/news/__card-date/news__card-date.css');
+@import url('../blocks/news/__card-image/news__card-image.css');
+@import url('../blocks/news/__card-type/news__card-type.css');
 @import url('../blocks/news/__card-description/news__card-description.css');
 @import url('../blocks/news/__card/_active/news__card_active.css');
 @import url('../blocks/magazine/magazine.css');

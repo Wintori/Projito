@@ -1,4 +1,4 @@
-.sort__subtitle-mobile {
+.sort-subtitle-mobile {
     display: none;
     margin-right: 0;
     margin-bottom: 24px;
@@ -12,13 +12,13 @@
     text-decoration: none;
 }
 
-.sort__subtitle-mobile:hover {
+.sort-subtitle-mobile:hover {
     cursor: pointer;
     opacity: 0.8;
 }
 
 @media (max-width: 470px) {
-    .sort__subtitle-mobile {
+    .sort-subtitle-mobile {
         display: inline-block;
         margin-top: 4px;
         margin-left: 12px;
