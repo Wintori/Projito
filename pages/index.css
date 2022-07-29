@@ -119,24 +119,5 @@
 @import url('../blocks/card/_theme-collection/card_theme-collection.css');
 @import url('../blocks/card/__tablet/card__tablet.css');
 
-.swiper {
-    max-width: 1024px;
-    height: 390px;
-}
-
-@media screen and(max-width: 768px) {
-    .swiper {
-        max-width: 580px;
-
-    }
-}
-
-.swiper-slide {
-    margin-right: 20px;
-    width: auto !important
-}
-
-@media screen and(max-width: 768px) {
-    .swiper-slide {
-    }
-}
+@import url('../blocks/swiper/swiper.css');
+@import url('../blocks/swiper-slide/swiper-slide.css');

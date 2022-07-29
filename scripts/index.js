@@ -1,5 +1,5 @@
 const swiper = new Swiper(".swiper", {
-    slidesPerView: 2.5,
+    slidesPerView: 2.27,
     centeredSlides: false,
     loopFillGroupWithBlank: true,
     scrollbar: {
