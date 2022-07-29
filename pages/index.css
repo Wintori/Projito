@@ -58,6 +58,7 @@
 @import url('../blocks/news/__card-type/news__card-type.css');
 @import url('../blocks/news/__card-description/news__card-description.css');
 @import url('../blocks/news/__card/_active/news__card_active.css');
+
 @import url('../blocks/magazine/magazine.css');
 @import url('../blocks/magazine-mobile/magazine-mobile.css');
 
