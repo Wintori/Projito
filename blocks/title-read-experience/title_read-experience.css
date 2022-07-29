@@ -1,4 +1,4 @@
-.title-read-experience {
+.title_read-experience {
     font-family: 'WF';
     font-style: normal;
     font-weight: 400;
@@ -11,7 +11,7 @@
 }
 
 @media (max-width: 800px) {
-    .title-read-experience {
+    .title_read-experience {
         font-size: 18px;
         line-height: 22px;
         margin-top: 12px;
@@ -30,7 +30,7 @@
 
 
 @media (max-width: 470px) {
-    .title-read-experience {
+    .title_read-experience {
         margin: 16px 8px 12px 8px;
     }
 }
