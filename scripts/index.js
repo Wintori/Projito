@@ -1,10 +1,22 @@
-const swiper = new Swiper(".swiper", {
-    slidesPerView: 2.27,
-    centeredSlides: false,
-    loopFillGroupWithBlank: true,
-    scrollbar: {
-        el: ".swiper-scrollbar"
-    },
+//-------------------------------------------------------------------------------------
+let offsetSliderMaterials = 288;
+const lineMaterial = document.querySelector('.materials__cards');
+const sliderMaterialDots = document.querySelectorAll('.materials__slide');
+
+sliderMaterialDots.forEach((el, index) => {
+  el.addEventListener('click', () => {
+    if(sliderMaterialDots[0] === el) {
+      lineMaterial.style.left = '0';
+    } else {
+      lineMaterial.style.left = `-${offsetSliderMaterials * index}px`;
+    }
+    sliderMaterialDots.forEach(el => {
+      if (el.childNodes[1].classList.contains('materials__slide-button_active')) {
+        el.childNodes[1].classList.remove('materials__slide-button_active');
+      }
+    });
+    el.childNodes[1].classList.add('materials__slide-button_active');
+  });
 });
 
 
@@ -23,11 +35,11 @@ let sliderCountMagazine = sliderLineMagazine.childElementCount;
 const windowInnerWidth = document.documentElement.clientWidth // Считываем размер экрана
 
 if (windowInnerWidth > 768) {
-    sliderLenght = sliderCountNews * 330;
+     sliderLenght = sliderCountNews * 330;
 } else if (windowInnerWidth <= 768 && windowInnerWidth > 360) {
-    sliderLenght = sliderCountNews * 180;
+     sliderLenght = sliderCountNews * 180;
 } else {
-    sliderLenght = sliderCountNews * 180;
+     sliderLenght = sliderCountNews * 180;
 }
 
 function setSliderSize(sliderLine) {
@@ -36,7 +48,7 @@ function setSliderSize(sliderLine) {
 
 
 news.querySelector('.button-next').addEventListener('click', function () {
-    if (windowInnerWidth > 768) {
+    if (windowInnerWidth > 768){
         offsetNews = offsetNews + 330;
 
 
@@ -45,7 +57,7 @@ news.querySelector('.button-next').addEventListener('click', function () {
         }
         sliderLineNews.style.left = -offsetNews + 'px';
         sliderLineMagazine.style.left = -offsetNews + 'px';
-    } else if (windowInnerWidth <= 768 && windowInnerWidth > 360) {
+    }else if (windowInnerWidth <= 768 && windowInnerWidth > 360) {
         offsetNews = offsetNews + 180;
 
 
@@ -66,20 +78,38 @@ news.querySelector('.button-previous').addEventListener('click', function () {
 });
 
 
-function myFunction(x) {
-    if (x.matches) { // Если медиа запрос совпадает
-        const swiper = new Swiper(".swiper", {
-            slidesPerView: 2.7,
-            centeredSlides: false,
 
-            loopFillGroupWithBlank: true,
-            scrollbar: {
-                el: ".swiper-scrollbar"
+magazine.querySelector('.button-next').addEventListener('click', function () {
+    if (windowInnerWidth > 768){
+        offsetMagazine = offsetMagazine + 330;
 
-            },
-        });
+
+        if (offsetMagazine > (sliderLenght - 330 * 3)) {
+            offsetMagazine = 0;
+        }
+        sliderLineNews.style.left = -offsetMagazine + 'px';
+        sliderLineMagazine.style.left = -offsetMagazine + 'px';
+    }else if (windowInnerWidth <= 768 && windowInnerWidth > 360) {
+        offsetMagazine = offsetMagazine + 180;
+
+
+        if (offsetMagazine > (sliderLenght - 180 * 3)) {
+            offsetMagazine = 0;
+        }
+        sliderLineMagazine.style.left = -offsetMagazine + 'px';
     }
-}
 
-const x = window.matchMedia("(max-width: 900px)")
-myFunction(x) // Вызов функции прослушивателя во время выполнения
+});
+
+magazine.querySelector('.button-previous').addEventListener('click', function () {
+    offsetMagazine = offsetMagazine - 330;
+    if (offsetMagazine < 0) {
+        offsetMagazine = sliderLenght - 330 * 3;
+    }
+    sliderLineMagazine.style.left = -offsetMagazine + 'px';
+    console.log('click');
+});
+
+
+setSliderSize(sliderLineNews);
+setSliderSize(sliderLineMagazine);
