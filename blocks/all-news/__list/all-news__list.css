@@ -8,6 +8,7 @@
     grid-row-gap: 62px;
     line-height: 0;
     justify-content: center;
+    height: unset;
 }
 
 @media screen and (max-width: 768px) {
@@ -15,11 +16,14 @@
         grid-column-gap: 40px;
         grid-row-gap: 32px;
         grid-template-columns: repeat(2, 180px);
+        margin: 0 auto;
+        height: unset;
     }
 }
 
 @media screen and (max-width: 425px) {
     .all-news__list {
+        display: grid;
         grid-column-gap: unset;
         grid-template-columns: repeat(1, 336px);
     }
