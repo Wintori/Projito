@@ -5,7 +5,9 @@
     column-gap: 20px;
     justify-content: center;
     background-color: #F7F4F0;
-    padding-bottom: 164px;
+    padding: 0 0 164px 0;
+    margin: 0;
+    list-style-type: none;
 }
 
 @media (max-width: 768px) {
