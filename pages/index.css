@@ -1,3 +1,5 @@
+@import 'swiper/css';
+
 @import url('../vendor/normalize.css');
 @import url('../vendor/fonts.css');
 @import url('../pages/main.css');
@@ -108,3 +110,27 @@
 @import url('../blocks/card/_read-experience/card_read-experience.css');
 @import url('../blocks/card/_theme-collection/card_theme-collection.css');
 @import url('../blocks/card/_specproject/card_specproject.css');
+.swiper {
+    max-width: 1024px;
+height: 390px;
+}
+@media screen and(max-width: 768px) {
+    .swiper {
+        max-width: 580px;
+
+    }
+}
+.swiper-slide {
+    margin-right: 20px;
+    width:auto!important
+}
+
+@media screen and(max-width: 768px) {
+    .swiper-slide {
+    }
+}
+
+
+
+
+

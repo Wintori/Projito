@@ -1,13 +1,13 @@
 .news__card-information {
     display: flex;
-    justify-content: space-between;
+
     margin: 0;
     padding: 0;
 }
 
 @media screen and (max-width: 360px) {
     .news__card-information {
-        flex-direction: row;
+     
         margin: 8px 0 0 0;
     }
 }
