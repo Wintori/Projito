@@ -1,0 +1,17 @@
+.card__theme_read-experience {
+    font-family: 'PT', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #323232;
+}
+
+@media (max-width: 800px) {
+    .card__theme_read-experience {
+        font-size: 12px;
+        line-height: 16px;
+        margin: 0 auto;
+    }
+}
