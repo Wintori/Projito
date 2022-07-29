@@ -15,3 +15,7 @@
 .button-previous:hover {
     opacity: 0.5;
 }
+
+.swiper-button-prev {
+    overflow: hidden;
+}
