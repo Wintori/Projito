@@ -20,7 +20,7 @@
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 470px) {
     .button-news {
         align-self: start;
         display: block;
