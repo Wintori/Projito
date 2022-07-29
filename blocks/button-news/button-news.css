@@ -13,7 +13,7 @@
     opacity: 0.6;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
     .button-news {
         min-height: 32px;
         min-width: 32px;

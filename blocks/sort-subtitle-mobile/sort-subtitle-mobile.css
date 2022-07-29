@@ -1,0 +1,26 @@
+.sort-subtitle-mobile {
+    display: none;
+    margin-right: 0;
+    margin-bottom: 24px;
+    max-width: 204px;
+    font-family: 'PT', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #323232;
+    text-decoration: none;
+}
+
+.sort-subtitle-mobile:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+@media (max-width: 470px) {
+    .sort-subtitle-mobile {
+        display: inline-block;
+        margin-top: 4px;
+        margin-left: 12px;
+    }
+}

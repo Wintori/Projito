@@ -25,9 +25,9 @@ sliderMaterialDots.forEach((el, index) => {
 let offsetNews = 0;
 let offsetMagazine = 0;
 const news = document.querySelector('.news');
-const sliderLineNews = news.querySelector('.news__list'); // слайдер News
+const sliderLineNews = news.querySelector('.news-list'); // слайдер News
 const magazine = document.querySelector('.magazine');
-const sliderLineMagazine = magazine.querySelector('.news__list');
+const sliderLineMagazine = magazine.querySelector('.news-list');
 
 let sliderCountNews = sliderLineNews.childElementCount; // кол-во карточек в слайдере
 let sliderCountMagazine = sliderLineMagazine.childElementCount;
