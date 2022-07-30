@@ -1,8 +1,8 @@
 
 const swiper = new Swiper(".swiper", {
-    slidesPerView: 2.5,
+    slidesPerView: 2.,
     centeredSlides: false,
-    loopFillGroupWithBlank: true,
+    loopFillGroupWithBlank: false,
     scrollbar: {
         el: ".swiper-scrollbar"
       },
