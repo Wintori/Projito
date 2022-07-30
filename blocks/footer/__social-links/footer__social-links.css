@@ -3,7 +3,7 @@
     flex-direction: column;
 }
 
-@media screen and (max-width: 1399px) {
+@media screen and (max-width: 1124px) {
     .footer__social-links {
         display: none;
     }

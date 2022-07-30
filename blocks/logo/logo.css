@@ -12,4 +12,9 @@
     .header__main-menu > .logo {
         margin: 13px 0 0;
     }
+
+    .logo {
+        max-width: 255px;
+        max-height: 24px;
+      }
 }

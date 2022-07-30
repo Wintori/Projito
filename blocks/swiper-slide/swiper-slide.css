@@ -1,0 +1,10 @@
+.swiper-slide {
+    margin-right: 20px;
+    width: auto;
+    height: 300px;
+}
+
+@media screen and(max-width: 768px) {
+    .swiper-slide {
+    }
+}

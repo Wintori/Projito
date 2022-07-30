@@ -1,13 +1,17 @@
 .news__card {
     width: 328px;
     border-bottom: 4px solid #E7E4DE;
-    padding-right: 19px;
     height: 443px;
     margin: 0;
-    padding: 0 20px 0 0;
+    padding: 0 19px 0 0;
     overflow: hidden;
+    flex-shrink: 0;
 }
 
+
+.news__card:last-of-type {
+    padding: 0;
+}
 
 @media screen and (max-width: 768px) {
     .news__card {
@@ -16,17 +20,14 @@
     }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 425px) {
     .news__card {
+        max-width: 336px;
         width: calc(100vw - 24px);
         height: auto;
         border: none;
         overflow: unset;
         padding: 0;
         margin: 0 auto 16px auto;
-    }
-
-    .news__card:last-of-type {
-        margin: 0 auto 32px auto;
     }
 }

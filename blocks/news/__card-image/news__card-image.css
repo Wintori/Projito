@@ -1,0 +1,26 @@
+.news__card-image {
+    margin: 0;
+    padding: 0;
+    width: 212px;
+    height: 233px;
+    object-fit: cover;
+    line-height: 0;
+    display: block;
+    margin-left: 50px;
+}
+
+@media screen and (max-width: 768px) {
+    .news__card-image {
+        width: 102px;
+        height: 120px;
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .news__card-image {
+        width: 100%;
+        height: 160px;
+        margin-left: 0px;
+    }
+}
