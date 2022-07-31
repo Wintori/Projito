@@ -1,0 +1,12 @@
+.pages {
+    max-width: 678px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto 62px auto;
+}
+
+@media (max-width: 800px) {
+    .pages {
+        display: none;
+    }
+}

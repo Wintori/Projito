@@ -1,0 +1,15 @@
+.popup__title_typical {
+    margin: 13px auto 9.25px 12px;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 100%;
+    color: #323232;
+    text-align: left;
+}
+
+@media (max-width: 800px) {
+    .popup__title {
+        font-size: 18px;
+        line-height: 22px;
+    }
+}

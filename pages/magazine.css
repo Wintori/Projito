@@ -1,0 +1,45 @@
+@import url('../vendor/normalize.css');
+@import url('../vendor/fonts.css');
+@import url('../pages/main.css');
+@import url('../blocks/page/page.css');
+@import url('../blocks/content/content.css');
+
+@import url('../blocks/menu/menu.css');
+@import url('../blocks/menu/__link/menu__link.css');
+@import url('../blocks/menu/__link/_history/menu__link_history.css');
+@import url('../blocks/menu/__link/_home/menu__link_home.css');
+@import url('../blocks/menu/__link/_journal/menu__link_journal.css');
+@import url('../blocks/menu/__link/_news/menu__link_news.css');
+
+@import url('../blocks/journal/journal.css');
+@import url('../blocks/journal/__title/journal__title.css');
+@import url('../blocks/sort/sort.css');
+@import url('../blocks/sort/__title/sort__title.css');
+@import url('../blocks/sort/__themes/sort__themes.css');
+@import url('../blocks/sort/__theme/sort__theme.css');
+@import url('../blocks/sort-subtitle-mobile/sort-subtitle-mobile.css');
+@import url('../blocks/sort-arrow/sort-arrow.css');
+
+@import url('../blocks/cards/cards.css');
+@import url('../blocks/card/card.css');
+@import url('../blocks/card/__content/card__content.css');
+
+@import url('../blocks/card/__theme/card__theme.css');
+@import url('../blocks/card/__theme/_read-experience/card__theme_read-experience.css');
+@import url('../blocks/card/__title/card__title.css');
+@import url('../blocks/title-read-experience/title-read-experience.css');
+@import url('../blocks/card/__image/card__image.css');
+@import url('../blocks/card/__subtitle/card__subtitle.css');
+@import url('../blocks/subtitle-read-experience/subtitle_read-experience.css');
+@import url('../blocks/card/__description/card__description.css');
+@import url('../blocks/card/_read-experience/card_read-experience.css');
+@import url('../blocks/card/_theme-collection/card_theme-collection.css');
+@import url('../blocks/card/_specproject/card_specproject.css');
+@import url('../blocks/card/_mobile-first/card_mobile-first.css');
+@import url('../blocks/card/_mobile-second/card_mobile-second.css');
+@import url('../blocks/card/_mobile-third/card_mobile-third.css');
+
+@import url('../blocks/pages/pages.css');
+@import url('../blocks/pages/__arrow/pages__arrow.css');
+@import url('../blocks/pages/__numbers/pages__numbers.css');
+@import url('../blocks/pages/__number/pages__number.css');

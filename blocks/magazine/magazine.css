@@ -1,0 +1,22 @@
+.magazine {
+    display: flex;
+    margin: 0 0 56px 0;
+    height: 680px;
+}
+
+@media screen and (max-width: 800px) {
+
+    .magazine {
+        height: 380px;
+        margin: 0 0 32px 0;
+    }
+
+}
+
+@media screen and (max-width: 470px) {
+
+    .magazine {
+        display: none;
+        height: unset;
+    }
+}

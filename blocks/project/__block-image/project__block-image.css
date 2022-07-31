@@ -1,0 +1,21 @@
+.project__block-image {
+    width: 212px;
+    height: 100%;
+
+}
+
+
+@media screen and (max-width: 1100px) {
+    .project__block-image {
+        width: 100%;
+        max-width: 463px;
+        height: 182px;
+    }
+}
+
+@media screen and (max-width: 368px) {
+    .project__block-image {
+        max-width: 345px;
+        max-height: 182px;
+    }
+}

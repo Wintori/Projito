@@ -1,0 +1,17 @@
+.button-previous {
+    background-image: url("../../images/button-prev.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 24px;
+    border: 1px solid black;
+    min-height: 36px;
+    min-width: 36px;
+    transition: opacity .2s linear;
+    border-radius: 100px;
+    margin-right: 12px;
+    opacity: 0.5;
+}
+
+.button-previous:hover {
+    opacity: 0.5;
+}

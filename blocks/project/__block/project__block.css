@@ -1,0 +1,21 @@
+.project__block {
+    display: flex;
+    max-width: 678px;
+    background-color: #F7F4F0;
+}
+
+@media screen and (max-width: 1100px) {
+    .project__block {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 710px) {
+    .project__block {
+        background-color: white;
+        border-width: 0px 1px 1px 1px;
+        border-style: solid;
+        border-color: #A5CDAB;
+    }
+}

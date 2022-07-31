@@ -1,0 +1,8 @@
+.news__card_all-news {
+    overflow: unset;
+    border-bottom: unset;
+    padding: 0;
+    height: unset;
+    justify-content: center;
+    margin: 0 auto;
+}

@@ -1,0 +1,23 @@
+.project__block-date {
+    margin: 0;
+    font-family: 'PT', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    /* Text/Black */
+    color: #323232;
+    margin-top: 117px;
+}
+
+@media screen and (max-width: 1100px) {
+    .project__block-date {
+        margin-top: 29px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .project__block-date {
+        font-size: 12px;
+    }
+}

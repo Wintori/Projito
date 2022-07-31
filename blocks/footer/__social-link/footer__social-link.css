@@ -1,0 +1,32 @@
+.footer__social-link {
+    font-family: 'PT', "Arial", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #323232;
+    text-decoration: none;
+}
+
+.footer__social-link:first-child {
+    margin-bottom: 12px;
+}
+
+@media screen and (max-width: 1399px) {
+    .footer__social-links_mobile .footer__social-link:first-child {
+        margin-bottom: 0;
+        margin-right: 24px;
+    }
+
+    .footer__info > .footer__social-link {
+        margin-bottom: 8px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .footer__social-link {
+        font-size: 14px;
+        line-height: 18px;
+    }
+}
+

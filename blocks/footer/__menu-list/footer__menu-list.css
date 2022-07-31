@@ -1,0 +1,23 @@
+.footer__menu-list {
+    text-decoration: none;
+    margin-right: 60px;
+}
+
+.footer__menu-list:last-child {
+    margin-right: 0px;
+}
+
+@media screen and (max-width: 767px) {
+    .footer__menu-list {
+        margin-right: 32px;
+    }
+
+    .footer__menu-list:nth-child(2) {
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+
+    .footer__menu-list:nth-child(n + 3) {
+        order: 1;
+    }
+}

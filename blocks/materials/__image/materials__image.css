@@ -1,0 +1,19 @@
+.materials__image {
+    width: 200px;
+    height: 224px;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 1439px) {
+  .materials__image {
+    width: 173px;
+    height: 180px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .materials__image {
+    width: 160px;
+    height: 180px;
+  }
+}

@@ -1,0 +1,22 @@
+.pages__number {
+    margin: 0 18px 0 0;
+    width: 32px;
+    height: 34px;
+    font-family: 'PT', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pages__number:last-of-type {
+    margin-right: 0;
+}
+
+.pages__number:first-of-type {
+    background-color: #323232;
+    color: #F5F5F5;
+}

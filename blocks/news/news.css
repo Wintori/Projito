@@ -1,0 +1,24 @@
+.news {
+    display: flex;
+    margin: 0 0 56px 0;
+    height: 560px;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .news {
+        height: 380px;
+        margin: 0 0 32px 0;
+    }
+
+}
+
+@media screen and (max-width: 425px) {
+
+    .news {
+        display: none;
+        height: unset;
+    }
+
+}

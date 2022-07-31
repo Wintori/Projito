@@ -1,0 +1,21 @@
+.footer__menu-link {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'PT', "Arial", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #323232;
+}
+
+.footer__menu-link:hover {
+    border-bottom: 1px solid #323232;
+}
+
+@media screen and (max-width: 1399px) {
+    .footer__menu-link {
+        font-size: 14px;
+        line-height: 18px;
+    }
+}

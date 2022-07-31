@@ -1,0 +1,16 @@
+@font-face {
+  font-family: 'WF';
+  font-style: normal;
+  src: url('./fonts/Projito/Projito.woff2') format("woff2"),
+  url('./fonts/Projito/Projito.ttf') format("ttf"),
+  url('./fonts/Projito/Projito.otf') format("otf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'PT';
+  font-style: normal;
+  src: url('./fonts/PT-Sans/PTSans-Regular.woff2') format("woff2"),
+  url('./fonts/PT-Sans/PTSans-Regular.ttf') format("ttf");
+  font-weight: 400;
+}

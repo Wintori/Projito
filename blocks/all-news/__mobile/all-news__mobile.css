@@ -1,0 +1,9 @@
+.all-news_mobile {
+    display: none;
+}
+
+@media screen and (max-width: 425px) {
+    .all-news_mobile {
+        display: block;
+    }
+}

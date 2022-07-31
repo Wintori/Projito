@@ -1,0 +1,9 @@
+.all-news__title {
+    font-family: 'PT', 'Arial', sans-serif;
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 60px;
+    margin: 0 0 62px 0;
+    padding: 0;
+    text-align: center;
+}

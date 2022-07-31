@@ -1,0 +1,18 @@
+@media screen and (min-width: 1124px) {
+    .footer__social-links_mobile {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1123px) {
+    .footer__social-links_mobile {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .footer__social-links_mobile {
+        margin-bottom: 24px;
+    }
+}

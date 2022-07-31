@@ -1,0 +1,8 @@
+.sort__themes {
+    margin:0 auto 36px auto;
+    max-width: 574px;
+    display: flex;
+    justify-content: space-between;
+    /* gap: 32px; */
+}
+

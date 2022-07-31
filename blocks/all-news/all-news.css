@@ -1,0 +1,9 @@
+.all-news {
+    margin: 0 auto 40px;
+}
+
+@media screen and (max-width: 425px) {
+    .all-news {
+        display: none;
+    }
+}

@@ -1,0 +1,9 @@
+.materials__slide-button {
+  border: none;
+  border-radius: 50%;
+  padding: 0;
+  width: 8px;
+  height: 8px;
+  cursor: pointer;
+  background-color: #A5CDAB;
+}

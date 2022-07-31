@@ -1,0 +1,9 @@
+.news-cards {
+    overflow: hidden;
+}
+
+@media screen and (max-width: 425px) {
+    .news-cards {
+        overflow: unset;
+    }
+}

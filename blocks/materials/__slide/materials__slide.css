@@ -1,0 +1,7 @@
+.materials__slide {
+  margin-right: 12px;
+}
+
+.materials__slide:last-of-type {
+  margin-right: 0;
+}
