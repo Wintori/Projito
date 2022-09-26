@@ -1,0 +1,25 @@
+@import url('../vendor/normalize.css');
+@import url('../vendor/fonts.css');
+@import url('../pages/main.css');
+@import url('../blocks/page/page.css');
+@import url('../blocks/content/content.css');
+@import url('../blocks/article/article.css');
+@import url('../blocks/menu/menu.css');
+@import url('../blocks/menu/__link/menu__link.css');
+@import url('../blocks/menu/__link/_history/menu__link_history.css');
+@import url('../blocks/menu/__link/_home/menu__link_home.css');
+@import url('../blocks/menu/__link/_journal/menu__link_journal.css');
+@import url('../blocks/menu/__link/_news/menu__link_news.css');
+@import url('../blocks/chapter/chapter.css');
+@import url('../blocks/popup/popup.css');
+@import url('../blocks/popup/__title/popup__title.css');
+@import url('../blocks/popup/__subtitle/popup__subtitle.css');
+@import url('../blocks/popup/__link/popup__link.css');
+@import url('../blocks/popup/__closed/popup_closed.css');
+@import url('../blocks/popup/__button-close/popup__button-close.css');
+
+@import url('../blocks/popup/__button-close/_typical/popup__button-close_typical.css');
+@import url('../blocks/popup/__title/_typical/popup__title_typical.css');
+@import url('../blocks/popup/__subtitle/_typical/popup__subtitle_typical.css');
+@import url('../blocks/popup/_typical/popup_typical.css');
+

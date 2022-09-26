@@ -1,0 +1,20 @@
+.logo {
+  margin: 8px 0;
+}
+
+@media screen and (max-width: 1399px) {
+    .footer__social-container > .logo {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .header__main-menu > .logo {
+        margin: 13px 0 0;
+    }
+
+    .logo {
+        max-width: 255px;
+        max-height: 24px;
+      }
+}

@@ -1,0 +1,10 @@
+.header_secondary {
+    background-color: rgb(255, 255, 255) !important;
+    padding-bottom: 44px;
+}
+
+@media screen and (max-width: 1024px) {
+    .header_secondary {
+        padding-bottom: 27px;
+    }
+}

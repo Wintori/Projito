@@ -1,0 +1,15 @@
+.element__paragraph {
+    margin: 0;
+    font-family: 'PT', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    /* Text/Black */
+    color: #323232;
+}
+
+@media screen and (max-width: 768px) {
+    .element__paragraph {
+        font-size: 14px;
+    }
+}

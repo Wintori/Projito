@@ -1,0 +1,10 @@
+.header__menu-link_active {
+    padding-bottom: 11px;
+    border-bottom: 1px solid rgba(50, 50, 50, 1);
+}
+
+@media screen and (max-width: 1399px) and (min-width: 768px) {
+    .header__menu-link_active {
+        padding-bottom: 17px;
+    }
+}

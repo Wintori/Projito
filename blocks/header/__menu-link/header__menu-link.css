@@ -1,0 +1,40 @@
+.header__menu-link {
+    text-decoration: none;
+    font-family: 'PT', "Arial", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #323232;
+}
+
+.header__menu-link:hover {
+    padding-bottom: 12px;
+    border-bottom: 1px solid #323232;
+}
+
+@media screen and (max-width: 1399px) and (min-width: 768px) {
+    .header__menu-link {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    
+    .header__menu-link:hover {
+        padding-bottom: 15px;
+        border-bottom: 1px solid #323232;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .header__menu-link {
+        font-size: 14px;
+        line-height: 18px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .header__menu-link:hover {
+        padding-bottom: 0;
+        border-bottom: 1px solid #323232;
+    }
+}

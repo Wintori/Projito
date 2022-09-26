@@ -1,0 +1,13 @@
+.header__extra-menu-list {
+    text-decoration: none;
+    margin-right: 60px;
+}
+
+.header__extra-menu-list > .header__menu-link:hover {
+    border-bottom: 1px solid #323232 !important;
+    padding-bottom: 0 !important;
+}
+
+.header__extra-menu-list:last-child {
+    margin-right: 0px;
+}

@@ -1,0 +1,21 @@
+.materials__link {
+  color: #323232;
+  text-decoration: none;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  height: 100%;
+  transition: opacity 0.3s;
+}
+
+.materials__link:hover {
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 767px) {
+  .materials__link:hover {
+    opacity: 1;
+  }
+}

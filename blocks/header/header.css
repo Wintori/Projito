@@ -1,0 +1,16 @@
+.header {
+    margin: 0 auto;
+    max-width: 1440px;
+    box-sizing: border-box;
+    padding: 0 20px 70px;
+    background-color: #F7F4F0;
+    position: relative;
+    z-index: 2;
+    font-family: 'PT', "Arial", sans-serif;
+}
+
+@media screen and (max-width: 767px) {
+    .header {
+        padding-bottom: 10px;
+    }
+}
